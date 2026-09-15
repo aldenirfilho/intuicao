@@ -12,3 +12,4 @@ attachments/
 .DS_Store
 .nitro/
 dist/
+_site/

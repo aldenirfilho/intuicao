@@ -3,16 +3,22 @@ name: GitHub Pages
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
+    inputs:
+      publicar:
+        description: Publicar o início aprovado
+        type: boolean
+        required: true
+        default: false
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: true
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -22,34 +28,22 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-          cache: npm
-      - run: npm install --no-audit --no-fund
-      - run: npm run build
-        env:
-          GITHUB_PAGES: "1"
-      - name: Prepare Pages artifact
-        run: |
-          mkdir -p _site
-          if [ -d .vercel/output/static ]; then
-            cp -a .vercel/output/static/. _site/
-          elif [ -d dist ]; then
-            cp -a dist/. _site/
-          else
-            echo "No static output found" >&2
-            find . -maxdepth 3 -type d
-            exit 1
-          fi
-          if [ -f _site/index.html ]; then
-            cp _site/index.html _site/404.html
-          fi
-          touch _site/.nojekyll
+      - name: Check initial page script
+        run: node --check inicio/app.js
+      - name: Build only the approved initial page
+        run: node scripts/build-inicio.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
   deploy:
+    # Publishing is an explicit manual decision; pushes and PRs only build.
+    if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main' && inputs.publicar == true
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

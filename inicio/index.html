@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101b2b" />
+    <meta name="description" content="Intuição: pequenas experiências para compreender, pensar por si e transformar uma dúvida em ação." />
+    <title>Intuição — entender e agir</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23101b2b'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-family='serif' font-size='48' fill='%23ffd469'%3Ei%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#ficha">Ir para a ficha</a>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Intuição, início"><span class="brand-mark" aria-hidden="true">i</span> Intuição</a>
+      <span class="edition">Uma ideia de cada vez</span>
+    </header>
+    <main>
+      <section class="intro" aria-labelledby="titulo">
+        <p class="eyebrow">CURIOSIDADE · AUTONOMIA · RACIOCÍNIO CRÍTICO</p>
+        <h1 id="titulo">Entender melhor.<br /><em>Dar um pequeno passo.</em></h1>
+        <p class="lead">Uma dúvida pode ser o começo. Organize o que quer aprender e escolha uma ação possível para hoje.</p>
+      </section>
+      <div class="workspace">
+        <section id="ficha" class="sheet" aria-labelledby="ficha-titulo">
+          <div class="sheet-heading"><h2 id="ficha-titulo">Minha ficha: entender → agir</h2><span class="badge">3 perguntas</span></div>
+          <p class="hint">Respostas curtas bastam. Você pode escrever “ainda não sei”.</p>
+          <form id="learning-form">
+            <div class="field">
+              <label for="pergunta"><span class="step">1</span> O que quero entender?</label>
+              <textarea id="pergunta" rows="2" maxlength="1200" placeholder="Escreva uma pergunta que faça sentido para você."></textarea>
+            </div>
+            <div class="field">
+              <label for="explicacao"><span class="step">2</span> Como explico com minhas palavras?</label>
+              <textarea id="explicacao" rows="3" maxlength="2000" aria-describedby="pensar" placeholder="O que já entendi? O que ainda está confuso?"></textarea>
+              <p id="pensar" class="field-hint">O que sustenta essa explicação? O que ainda preciso conferir?</p>
+            </div>
+            <div class="field">
+              <label for="acao"><span class="step">3</span> Qual pequena ação posso fazer?</label>
+              <textarea id="acao" rows="2" maxlength="1200" placeholder="Escolha um passo simples: explicar, perguntar, observar ou conferir."></textarea>
+            </div>
+            <button type="submit" class="primary">Montar meu resumo <span aria-hidden="true">→</span></button>
+          </form>
+          <p class="privacy">Suas respostas ficam só nesta página, sem salvamento automático. Copie ou imprima antes de sair.</p>
+          <noscript><p>Para montar o resumo automaticamente, ative o JavaScript. Você também pode usar as três perguntas no papel.</p></noscript>
+        </section>
+        <aside class="side" aria-label="Exemplo e proposta">
+          <section class="example" aria-labelledby="exemplo-titulo">
+            <p class="eyebrow">UM EXEMPLO PARA COMEÇAR</p>
+            <h2 id="exemplo-titulo">Como explicar melhor uma ideia?</h2>
+            <dl>
+              <dt>O que quero entender</dt><dd>Como deixar uma explicação mais fácil de compreender?</dd>
+              <dt>Com minhas palavras</dt><dd>Posso apresentar uma ideia por vez e usar um exemplo conhecido.</dd>
+              <dt>Uma pequena ação</dt><dd>Escrever três frases, perguntar a alguém o que entendeu e ajustar o que ficou confuso.</dd>
+            </dl>
+          </section>
+          <section class="purpose" aria-labelledby="proposta-titulo">
+            <h2 id="proposta-titulo">O que importa é a atitude.</h2>
+            <p>Começar pequeno. Escutar. Observar o que ajuda. Melhorar com as pessoas.</p>
+            <p>O Intuição compartilha ferramentas de estudo para tornar ideias difíceis mais compreensíveis e apoiar quem quer pensar por si.</p>
+          </section>
+        </aside>
+      </div>
+      <section id="resultado" class="result" aria-labelledby="resumo-titulo" hidden>
+        <p class="eyebrow">UM REGISTRO PARA LEVAR COM VOCÊ</p>
+        <h2 id="resumo-titulo" tabindex="-1">Meu próximo passo está aqui</h2>
+        <p class="hint">Este resumo reúne o que você escreveu. Ele não verifica se a explicação está correta.</p>
+        <label class="sr-only" for="resumo">Resumo pronto para copiar</label>
+        <textarea id="resumo" readonly rows="10"></textarea>
+        <pre id="print-summary" class="print-only"></pre>
+        <div class="result-actions"><button id="copiar" type="button" class="primary">Copiar resumo</button><button id="imprimir" type="button" class="secondary">Imprimir ficha</button></div>
+        <p id="status" class="status" role="status" aria-live="polite"></p>
+      </section>
+    </main>
+    <footer><strong>Intuição</strong><span>Aprender com clareza. Agir com cuidado.</span><span class="prototype">Protótipo inicial</span></footer>
+  </body>
+</html>
