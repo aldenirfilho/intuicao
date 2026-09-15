@@ -1,0 +1,5475 @@
+{
+  "curve": {
+    "p": 37,
+    "a": 2,
+    "b": 3,
+    "equation": "y^2 = x^3 + 2x + 3 (mod 37)",
+    "G": [
+      4,
+      1
+    ],
+    "order": 20,
+    "nAffine": 39,
+    "groupOrder": 40
+  },
+  "points": [
+    [
+      0,
+      15
+    ],
+    [
+      0,
+      22
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      31
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      36
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      5,
+      29
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      34
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      29
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      9,
+      26
+    ],
+    [
+      12,
+      4
+    ],
+    [
+      12,
+      33
+    ],
+    [
+      14,
+      0
+    ],
+    [
+      15,
+      2
+    ],
+    [
+      15,
+      35
+    ],
+    [
+      18,
+      5
+    ],
+    [
+      18,
+      32
+    ],
+    [
+      24,
+      0
+    ],
+    [
+      25,
+      8
+    ],
+    [
+      25,
+      29
+    ],
+    [
+      28,
+      12
+    ],
+    [
+      28,
+      25
+    ],
+    [
+      29,
+      17
+    ],
+    [
+      29,
+      20
+    ],
+    [
+      30,
+      4
+    ],
+    [
+      30,
+      33
+    ],
+    [
+      31,
+      16
+    ],
+    [
+      31,
+      21
+    ],
+    [
+      32,
+      4
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      34,
+      9
+    ],
+    [
+      34,
+      28
+    ],
+    [
+      35,
+      18
+    ],
+    [
+      35,
+      19
+    ],
+    [
+      36,
+      0
+    ]
+  ],
+  "multiples": [
+    {
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "k": 2,
+      "point": [
+        25,
+        29
+      ]
+    },
+    {
+      "k": 3,
+      "point": [
+        18,
+        5
+      ]
+    },
+    {
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "k": 5,
+      "point": [
+        5,
+        29
+      ]
+    },
+    {
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "k": 8,
+      "point": [
+        15,
+        35
+      ]
+    },
+    {
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "k": 11,
+      "point": [
+        30,
+        4
+      ]
+    },
+    {
+      "k": 12,
+      "point": [
+        15,
+        2
+      ]
+    },
+    {
+      "k": 13,
+      "point": [
+        7,
+        29
+      ]
+    },
+    {
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "k": 15,
+      "point": [
+        5,
+        8
+      ]
+    },
+    {
+      "k": 16,
+      "point": [
+        3,
+        6
+      ]
+    },
+    {
+      "k": 17,
+      "point": [
+        18,
+        32
+      ]
+    },
+    {
+      "k": 18,
+      "point": [
+        25,
+        8
+      ]
+    },
+    {
+      "k": 19,
+      "point": [
+        4,
+        36
+      ]
+    },
+    {
+      "k": 20,
+      "point": null
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "key": "Deus",
+      "ref": "Gênesis 1; Êxodo 3; João 1",
+      "idea": "Criador livre, presente e não manipulável.",
+      "sum": 49,
+      "letters": [
+        [
+          "D",
+          4
+        ],
+        [
+          "E",
+          5
+        ],
+        [
+          "U",
+          21
+        ],
+        [
+          "S",
+          19
+        ]
+      ],
+      "k": 10,
+      "point": [
+        24,
+        0
+      ],
+      "formula": "k = (Σ + 1) mod 20"
+    },
+    {
+      "id": 2,
+      "key": "Criação",
+      "ref": "Gênesis 1-2; Salmo 24",
+      "idea": "Mundo bom, corpo digno e cuidado responsável.",
+      "sum": 50,
+      "letters": [
+        [
+          "C",
+          3
+        ],
+        [
+          "R",
+          18
+        ],
+        [
+          "I",
+          9
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "C",
+          3
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "O",
+          15
+        ]
+      ],
+      "k": 12,
+      "point": [
+        15,
+        2
+      ],
+      "formula": "k = (Σ + 2) mod 20"
+    },
+    {
+      "id": 3,
+      "key": "Imagem humana",
+      "ref": "Gênesis 1:26-28; Tiago 3:9",
+      "idea": "Dignidade universal anterior a status.",
+      "sum": 106,
+      "letters": [
+        [
+          "I",
+          9
+        ],
+        [
+          "M",
+          13
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "G",
+          7
+        ],
+        [
+          "E",
+          5
+        ],
+        [
+          "M",
+          13
+        ],
+        [
+          "H",
+          8
+        ],
+        [
+          "U",
+          21
+        ],
+        [
+          "M",
+          13
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "N",
+          14
+        ],
+        [
+          "A",
+          1
+        ]
+      ],
+      "k": 9,
+      "point": [
+        30,
+        33
+      ],
+      "formula": "k = (Σ + 3) mod 20"
+    },
+    {
+      "id": 4,
+      "key": "Pecado",
+      "ref": "Gênesis 3-4; Romanos 3",
+      "idea": "Ruptura interna, relacional e estrutural.",
+      "sum": 44,
+      "letters": [
+        [
+          "P",
+          16
+        ],
+        [
+          "E",
+          5
+        ],
+        [
+          "C",
+          3
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "D",
+          4
+        ],
+        [
+          "O",
+          15
+        ]
+      ],
+      "k": 8,
+      "point": [
+        15,
+        35
+      ],
+      "formula": "k = (Σ + 4) mod 20"
+    },
+    {
+      "id": 5,
+      "key": "Aliança",
+      "ref": "Gênesis 12; Êxodo 19; Jeremias 31",
+      "idea": "Promessa que forma povo e responsabilidade.",
+      "sum": 41,
+      "letters": [
+        [
+          "A",
+          1
+        ],
+        [
+          "L",
+          12
+        ],
+        [
+          "I",
+          9
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "N",
+          14
+        ],
+        [
+          "C",
+          3
+        ],
+        [
+          "A",
+          1
+        ]
+      ],
+      "k": 6,
+      "point": [
+        35,
+        19
+      ],
+      "formula": "k = (Σ + 5) mod 20"
+    },
+    {
+      "id": 6,
+      "key": "Libertação",
+      "ref": "Êxodo 1-15; Lucas 4",
+      "idea": "Deus ouve oprimidos e confronta impérios.",
+      "sum": 86,
+      "letters": [
+        [
+          "L",
+          12
+        ],
+        [
+          "I",
+          9
+        ],
+        [
+          "B",
+          2
+        ],
+        [
+          "E",
+          5
+        ],
+        [
+          "R",
+          18
+        ],
+        [
+          "T",
+          20
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "C",
+          3
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "O",
+          15
+        ]
+      ],
+      "k": 12,
+      "point": [
+        15,
+        2
+      ],
+      "formula": "k = (Σ + 6) mod 20"
+    },
+    {
+      "id": 7,
+      "key": "Lei",
+      "ref": "Êxodo 20; Deuteronômio 6",
+      "idea": "Forma de viver livre sem recriar opressão.",
+      "sum": 26,
+      "letters": [
+        [
+          "L",
+          12
+        ],
+        [
+          "E",
+          5
+        ],
+        [
+          "I",
+          9
+        ]
+      ],
+      "k": 13,
+      "point": [
+        7,
+        29
+      ],
+      "formula": "k = (Σ + 7) mod 20"
+    },
+    {
+      "id": 8,
+      "key": "Sabedoria",
+      "ref": "Jó; Provérbios; Eclesiastes",
+      "idea": "Discernimento diante do limite e da realidade.",
+      "sum": 74,
+      "letters": [
+        [
+          "S",
+          19
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "B",
+          2
+        ],
+        [
+          "E",
+          5
+        ],
+        [
+          "D",
+          4
+        ],
+        [
+          "O",
+          15
+        ],
+        [
+          "R",
+          18
+        ],
+        [
+          "I",
+          9
+        ],
+        [
+          "A",
+          1
+        ]
+      ],
+      "k": 2,
+      "point": [
+        25,
+        29
+      ],
+      "formula": "k = (Σ + 8) mod 20"
+    },
+    {
+      "id": 9,
+      "key": "Profecia",
+      "ref": "Isaías 1; Amós 5; Miquéias 6",
+      "idea": "Culto examinado por justiça e misericórdia.",
+      "sum": 73,
+      "letters": [
+        [
+          "P",
+          16
+        ],
+        [
+          "R",
+          18
+        ],
+        [
+          "O",
+          15
+        ],
+        [
+          "F",
+          6
+        ],
+        [
+          "E",
+          5
+        ],
+        [
+          "C",
+          3
+        ],
+        [
+          "I",
+          9
+        ],
+        [
+          "A",
+          1
+        ]
+      ],
+      "k": 2,
+      "point": [
+        25,
+        29
+      ],
+      "formula": "k = (Σ + 9) mod 20"
+    },
+    {
+      "id": 10,
+      "key": "Encarnação",
+      "ref": "Mateus 1-2; Lucas 1-2; João 1",
+      "idea": "Deus entra em corpo, história e vulnerabilidade.",
+      "sum": 75,
+      "letters": [
+        [
+          "E",
+          5
+        ],
+        [
+          "N",
+          14
+        ],
+        [
+          "C",
+          3
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "R",
+          18
+        ],
+        [
+          "N",
+          14
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "C",
+          3
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "O",
+          15
+        ]
+      ],
+      "k": 5,
+      "point": [
+        5,
+        29
+      ],
+      "formula": "k = (Σ + 10) mod 20"
+    },
+    {
+      "id": 11,
+      "key": "Reino",
+      "ref": "Mateus 5-7; Marcos 1; Lucas 4",
+      "idea": "Governo de Deus que inverte poder e serve.",
+      "sum": 61,
+      "letters": [
+        [
+          "R",
+          18
+        ],
+        [
+          "E",
+          5
+        ],
+        [
+          "I",
+          9
+        ],
+        [
+          "N",
+          14
+        ],
+        [
+          "O",
+          15
+        ]
+      ],
+      "k": 12,
+      "point": [
+        15,
+        2
+      ],
+      "formula": "k = (Σ + 11) mod 20"
+    },
+    {
+      "id": 12,
+      "key": "Cruz",
+      "ref": "Marcos 14-15; João 18-19",
+      "idea": "Amor enfrenta violência sem reproduzi-la.",
+      "sum": 68,
+      "letters": [
+        [
+          "C",
+          3
+        ],
+        [
+          "R",
+          18
+        ],
+        [
+          "U",
+          21
+        ],
+        [
+          "Z",
+          26
+        ]
+      ],
+      "k": 20,
+      "point": null,
+      "formula": "k = (Σ + 12) mod 20"
+    },
+    {
+      "id": 13,
+      "key": "Ressurreição",
+      "ref": "Lucas 24; João 20-21; 1 Coríntios 15",
+      "idea": "Morte perde a autoridade final.",
+      "sum": 151,
+      "letters": [
+        [
+          "R",
+          18
+        ],
+        [
+          "E",
+          5
+        ],
+        [
+          "S",
+          19
+        ],
+        [
+          "S",
+          19
+        ],
+        [
+          "U",
+          21
+        ],
+        [
+          "R",
+          18
+        ],
+        [
+          "R",
+          18
+        ],
+        [
+          "E",
+          5
+        ],
+        [
+          "I",
+          9
+        ],
+        [
+          "C",
+          3
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "O",
+          15
+        ]
+      ],
+      "k": 4,
+      "point": [
+        3,
+        31
+      ],
+      "formula": "k = (Σ + 13) mod 20"
+    },
+    {
+      "id": 14,
+      "key": "Espírito",
+      "ref": "Atos 2; Gálatas 5",
+      "idea": "Presença que capacita testemunho e caráter.",
+      "sum": 111,
+      "letters": [
+        [
+          "E",
+          5
+        ],
+        [
+          "S",
+          19
+        ],
+        [
+          "P",
+          16
+        ],
+        [
+          "I",
+          9
+        ],
+        [
+          "R",
+          18
+        ],
+        [
+          "I",
+          9
+        ],
+        [
+          "T",
+          20
+        ],
+        [
+          "O",
+          15
+        ]
+      ],
+      "k": 5,
+      "point": [
+        5,
+        29
+      ],
+      "formula": "k = (Σ + 14) mod 20"
+    },
+    {
+      "id": 15,
+      "key": "Graça",
+      "ref": "Romanos 3-6; Efésios 2",
+      "idea": "Dom que reconcilia e treina uma nova vida.",
+      "sum": 30,
+      "letters": [
+        [
+          "G",
+          7
+        ],
+        [
+          "R",
+          18
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "C",
+          3
+        ],
+        [
+          "A",
+          1
+        ]
+      ],
+      "k": 5,
+      "point": [
+        5,
+        29
+      ],
+      "formula": "k = (Σ + 15) mod 20"
+    },
+    {
+      "id": 16,
+      "key": "Igreja",
+      "ref": "Atos 2; 1 Coríntios 12",
+      "idea": "Corpo diverso, interdependente e enviado.",
+      "sum": 50,
+      "letters": [
+        [
+          "I",
+          9
+        ],
+        [
+          "G",
+          7
+        ],
+        [
+          "R",
+          18
+        ],
+        [
+          "E",
+          5
+        ],
+        [
+          "J",
+          10
+        ],
+        [
+          "A",
+          1
+        ]
+      ],
+      "k": 6,
+      "point": [
+        35,
+        19
+      ],
+      "formula": "k = (Σ + 16) mod 20"
+    },
+    {
+      "id": 17,
+      "key": "Missão",
+      "ref": "Mateus 28; Atos 1",
+      "idea": "Formar discípulos e testemunhar com presença.",
+      "sum": 76,
+      "letters": [
+        [
+          "M",
+          13
+        ],
+        [
+          "I",
+          9
+        ],
+        [
+          "S",
+          19
+        ],
+        [
+          "S",
+          19
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "O",
+          15
+        ]
+      ],
+      "k": 13,
+      "point": [
+        7,
+        29
+      ],
+      "formula": "k = (Σ + 17) mod 20"
+    },
+    {
+      "id": 18,
+      "key": "Nova criação",
+      "ref": "Isaías 65; Apocalipse 21-22",
+      "idea": "Cura de pessoas, cidade, trabalho e terra.",
+      "sum": 102,
+      "letters": [
+        [
+          "N",
+          14
+        ],
+        [
+          "O",
+          15
+        ],
+        [
+          "V",
+          22
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "C",
+          3
+        ],
+        [
+          "R",
+          18
+        ],
+        [
+          "I",
+          9
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "C",
+          3
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "O",
+          15
+        ]
+      ],
+      "k": 20,
+      "point": null,
+      "formula": "k = (Σ + 18) mod 20"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "NO PRINCÍPIO",
+      "reading": "Gênesis 1:1-5; João 1:1-5",
+      "wisdom": "A primeira rebelião bíblica é a luz dizendo não ao caos.",
+      "sum": 138,
+      "k": 19,
+      "point": [
+        4,
+        36
+      ]
+    },
+    {
+      "day": 2,
+      "title": "POR QUE LER?",
+      "reading": "2 Timóteo 3:14-17; Salmo 119:9-16",
+      "wisdom": "A Bíblia não pede um cérebro desligado; pede uma vida examinada.",
+      "sum": 127,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 3,
+      "title": "CONTEXTO ANTES DO SLOGAN",
+      "reading": "Neemias 8:1-8; Lucas 24:25-32",
+      "wisdom": "Versículo sem contexto pode virar arma na mão de qualquer ideologia.",
+      "sum": 262,
+      "k": 5,
+      "point": [
+        5,
+        29
+      ]
+    },
+    {
+      "day": 4,
+      "title": "PERGUNTAS PERMITIDAS",
+      "reading": "Habacuque 1:2-4; Marcos 9:20-24",
+      "wisdom": "Deus não se assusta com a pergunta honesta; a máscara é mais perigosa.",
+      "sum": 235,
+      "k": 19,
+      "point": [
+        4,
+        36
+      ]
+    },
+    {
+      "day": 5,
+      "title": "O CENTRO DA HISTÓRIA",
+      "reading": "Lucas 24:44-49; João 5:39-40",
+      "wisdom": "A letra vira caminho quando conduz à verdade, ao amor e à vida.",
+      "sum": 194,
+      "k": 19,
+      "point": [
+        4,
+        36
+      ]
+    },
+    {
+      "day": 6,
+      "title": "SABEDORIA EM TRÊS VOZES",
+      "reading": "Miquéias 6:6-8; Marcos 12:28-34",
+      "wisdom": "A fé que não melhora a forma de tratar gente perdeu o compasso.",
+      "sum": 241,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 7,
+      "title": "O PACTO DO LEITOR",
+      "reading": "Tiago 1:19-25; Salmo 1:1-3",
+      "wisdom": "Não leia para vencer debates; leia para perder ilusões e ganhar caráter.",
+      "sum": 168,
+      "k": 15,
+      "point": [
+        5,
+        8
+      ]
+    },
+    {
+      "day": 8,
+      "title": "IMAGEM E DIGNIDADE",
+      "reading": "Gênesis 1:26-31",
+      "wisdom": "Se todo rosto carrega dignidade, desprezo nunca é neutro.",
+      "sum": 110,
+      "k": 18,
+      "point": [
+        25,
+        8
+      ]
+    },
+    {
+      "day": 9,
+      "title": "JARDIM E VOCAÇÃO",
+      "reading": "Gênesis 2:4-17",
+      "wisdom": "Sem limite, o jardim vira mina; sem cuidado, vocação vira exploração.",
+      "sum": 120,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 10,
+      "title": "SOLIDÃO E ENCONTRO",
+      "reading": "Gênesis 2:18-25",
+      "wisdom": "Amor não é posse: é encontro entre duas dignidades inteiras.",
+      "sum": 184,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 11,
+      "title": "O SÉTIMO DIA",
+      "reading": "Gênesis 2:1-3; Êxodo 20:8-11",
+      "wisdom": "Descansar é declarar que o mundo continua sem nossa onipotência.",
+      "sum": 110,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 12,
+      "title": "TERRA COMPARTILHADA",
+      "reading": "Salmo 24:1-6; Levítico 25:1-7",
+      "wisdom": "A criação não é cenário descartável; é herança sob cuidado.",
+      "sum": 183,
+      "k": 15,
+      "point": [
+        5,
+        8
+      ]
+    },
+    {
+      "day": 13,
+      "title": "CORPO COMO REALIDADE BOA",
+      "reading": "Salmo 139:13-18; 1 Coríntios 6:12-20",
+      "wisdom": "Respeitar o corpo é recusar tanto o culto quanto o desprezo por ele.",
+      "sum": 190,
+      "k": 3,
+      "point": [
+        18,
+        5
+      ]
+    },
+    {
+      "day": 14,
+      "title": "CRIAÇÃO FERIDA E ESPERANÇOSA",
+      "reading": "Romanos 8:18-25; Apocalipse 21:1-5",
+      "wisdom": "Esperança bíblica não foge do mundo; trabalha por sua renovação.",
+      "sum": 214,
+      "k": 8,
+      "point": [
+        15,
+        35
+      ]
+    },
+    {
+      "day": 15,
+      "title": "A VOZ DA SUSPEITA",
+      "reading": "Gênesis 3:1-7",
+      "wisdom": "A tentação promete expansão e entrega fragmentação.",
+      "sum": 179,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 16,
+      "title": "ONDE VOCÊ ESTÁ?",
+      "reading": "Gênesis 3:8-13",
+      "wisdom": "A pergunta divina não procura localização; procura verdade.",
+      "sum": 128,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 17,
+      "title": "CONSEQUÊNCIAS REAIS",
+      "reading": "Gênesis 3:14-24",
+      "wisdom": "Perdão não apaga causalidade; graça ensina a atravessá-la.",
+      "sum": 197,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 18,
+      "title": "IRMÃOS EM COLISÃO",
+      "reading": "Gênesis 4:1-16",
+      "wisdom": "Quem pergunta 'sou guardador?' já começou a abandonar o irmão.",
+      "sum": 167,
+      "k": 5,
+      "point": [
+        5,
+        29
+      ]
+    },
+    {
+      "day": 19,
+      "title": "VIOLÊNCIA EM ESCALA",
+      "reading": "Gênesis 6:5-13",
+      "wisdom": "Quando a crueldade vira normal, resistir passa a ser dever.",
+      "sum": 149,
+      "k": 8,
+      "point": [
+        15,
+        35
+      ]
+    },
+    {
+      "day": 20,
+      "title": "DEPOIS DA TEMPESTADE",
+      "reading": "Gênesis 8:15-22; 9:8-17",
+      "wisdom": "Recomeçar não é esquecer a água; é construir sem adorá-la.",
+      "sum": 181,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 21,
+      "title": "A TORRE E O NOME",
+      "reading": "Gênesis 11:1-9",
+      "wisdom": "Nem toda união é comunhão; às vezes é apenas poder centralizado.",
+      "sum": 144,
+      "k": 5,
+      "point": [
+        5,
+        29
+      ]
+    },
+    {
+      "day": 22,
+      "title": "SAIR SEM MAPA",
+      "reading": "Gênesis 12:1-9",
+      "wisdom": "Chamado não é privilégio isolado; é responsabilidade ampliada.",
+      "sum": 115,
+      "k": 17,
+      "point": [
+        18,
+        32
+      ]
+    },
+    {
+      "day": 23,
+      "title": "MEDO E MEIA-VERDADE",
+      "reading": "Gênesis 12:10-20",
+      "wisdom": "Herói bíblico sem sombra vira ídolo, não testemunha.",
+      "sum": 129,
+      "k": 12,
+      "point": [
+        15,
+        2
+      ]
+    },
+    {
+      "day": 24,
+      "title": "ESCOLHER A PAZ",
+      "reading": "Gênesis 13:1-18",
+      "wisdom": "Quem confia não precisa transformar toda disputa em guerra.",
+      "sum": 129,
+      "k": 13,
+      "point": [
+        7,
+        29
+      ]
+    },
+    {
+      "day": 25,
+      "title": "FÉ CONTADA COMO JUSTIÇA",
+      "reading": "Gênesis 15:1-6",
+      "wisdom": "Fé não é negar a noite; é contar estrelas dentro dela.",
+      "sum": 198,
+      "k": 3,
+      "point": [
+        18,
+        5
+      ]
+    },
+    {
+      "day": 26,
+      "title": "ATALHO E EXPLORAÇÃO",
+      "reading": "Gênesis 16:1-13",
+      "wisdom": "Deus vê quem os projetos de poder transformaram em recurso.",
+      "sum": 172,
+      "k": 18,
+      "point": [
+        25,
+        8
+      ]
+    },
+    {
+      "day": 27,
+      "title": "HOSPITALIDADE RADICAL",
+      "reading": "Gênesis 18:1-15",
+      "wisdom": "Às vezes a visita divina chega com poeira nos pés.",
+      "sum": 171,
+      "k": 18,
+      "point": [
+        25,
+        8
+      ]
+    },
+    {
+      "day": 28,
+      "title": "TESTE E LIMITE",
+      "reading": "Gênesis 22:1-14",
+      "wisdom": "A fé verdadeira não torna a violência sagrada; escuta o chamado que a interrompe.",
+      "sum": 142,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 29,
+      "title": "GÊMEOS E FAVORITISMO",
+      "reading": "Gênesis 25:19-34; 27:1-17",
+      "wisdom": "Feridas familiares explicam comportamentos, mas não cancelam responsabilidade.",
+      "sum": 216,
+      "k": 5,
+      "point": [
+        5,
+        29
+      ]
+    },
+    {
+      "day": 30,
+      "title": "ESCADA NO EXÍLIO",
+      "reading": "Gênesis 28:10-22",
+      "wisdom": "A pedra da noite pode virar marco de uma nova rota.",
+      "sum": 136,
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "day": 31,
+      "title": "O ENGANADOR ENGANADO",
+      "reading": "Gênesis 29:15-30",
+      "wisdom": "Paixão sem justiça pode sustentar uma casa cheia de feridas.",
+      "sum": 155,
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "day": 32,
+      "title": "LUTA PELO NOME",
+      "reading": "Gênesis 32:22-32",
+      "wisdom": "Algumas bênçãos não removem a marca; mudam seu significado.",
+      "sum": 149,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 33,
+      "title": "SONHOS E INVEJA",
+      "reading": "Gênesis 37:1-28",
+      "wisdom": "Quando gente vira objeto, o abismo já começou.",
+      "sum": 156,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 34,
+      "title": "INTEGRIDADE NO ESCURO",
+      "reading": "Gênesis 39:1-23",
+      "wisdom": "Integridade não compra imunidade; preserva quem você se torna.",
+      "sum": 206,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 35,
+      "title": "RECONCILIAÇÃO SEM AMNÉSIA",
+      "reading": "Gênesis 45:1-15; 50:15-21",
+      "wisdom": "Perdoar não é dizer que não doeu; é impedir que a dor governe o próximo capítulo.",
+      "sum": 207,
+      "k": 2,
+      "point": [
+        25,
+        29
+      ]
+    },
+    {
+      "day": 36,
+      "title": "UM SISTEMA DE MEDO",
+      "reading": "Êxodo 1:8-22",
+      "wisdom": "Quando a lei ordena crueldade, a consciência precisa levantar-se.",
+      "sum": 166,
+      "k": 2,
+      "point": [
+        25,
+        29
+      ]
+    },
+    {
+      "day": 37,
+      "title": "IDENTIDADE DIVIDIDA",
+      "reading": "Êxodo 2:1-15",
+      "wisdom": "Coragem sem sabedoria pode reproduzir aquilo que combate.",
+      "sum": 137,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 38,
+      "title": "O DEUS QUE VÊ E OUVE",
+      "reading": "Êxodo 2:23-25; 3:1-10",
+      "wisdom": "Experiência espiritual que não ouve o oprimido é apenas espetáculo.",
+      "sum": 202,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 39,
+      "title": "EU NÃO CONSIGO",
+      "reading": "Êxodo 3:11-15; 4:1-17",
+      "wisdom": "Pedir ajuda não diminui a missão; torna-a humana.",
+      "sum": 138,
+      "k": 17,
+      "point": [
+        18,
+        32
+      ]
+    },
+    {
+      "day": 40,
+      "title": "FARAÓ ENDURECIDO",
+      "reading": "Êxodo 5:1-9; 7:1-5",
+      "wisdom": "A primeira reação do sistema ferido costuma ser apertar as correntes.",
+      "sum": 139,
+      "k": 19,
+      "point": [
+        4,
+        36
+      ]
+    },
+    {
+      "day": 41,
+      "title": "SINAIS E LIMITES",
+      "reading": "Êxodo 8:1-15; 9:13-21",
+      "wisdom": "Remorso busca parar a dor; arrependimento muda a rota.",
+      "sum": 163,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 42,
+      "title": "A NOITE DA DECISÃO",
+      "reading": "Êxodo 12:1-14,29-36",
+      "wisdom": "Libertação deve ser celebrada sem romantizar o sofrimento que a antecede.",
+      "sum": 125,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 43,
+      "title": "ENTRE O EXÉRCITO E O MAR",
+      "reading": "Êxodo 14:10-22",
+      "wisdom": "A fé não nega o mar; procura o próximo passo entre as águas.",
+      "sum": 228,
+      "k": 11,
+      "point": [
+        30,
+        4
+      ]
+    },
+    {
+      "day": 44,
+      "title": "CÂNTICO DOS LIBERTOS",
+      "reading": "Êxodo 15:1-18",
+      "wisdom": "Cantar a libertação é diferente de idolatrar a violência.",
+      "sum": 203,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 45,
+      "title": "ÁGUA AMARGA",
+      "reading": "Êxodo 15:22-27",
+      "wisdom": "Depois do êxtase vem a sede; maturidade atravessa ambos.",
+      "sum": 71,
+      "k": 16,
+      "point": [
+        3,
+        6
+      ]
+    },
+    {
+      "day": 46,
+      "title": "PÃO SUFICIENTE",
+      "reading": "Êxodo 16:1-21",
+      "wisdom": "O maná apodrece quando o medo transforma provisão em controle.",
+      "sum": 143,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 47,
+      "title": "ÁGUA DA ROCHA",
+      "reading": "Êxodo 17:1-7",
+      "wisdom": "Não confunda necessidade real com fracasso espiritual.",
+      "sum": 80,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 48,
+      "title": "BRAÇOS SUSTENTADOS",
+      "reading": "Êxodo 17:8-16",
+      "wisdom": "Nenhum guerreiro mantém os braços erguidos sozinho.",
+      "sum": 215,
+      "k": 3,
+      "point": [
+        18,
+        5
+      ]
+    },
+    {
+      "day": 49,
+      "title": "CONSELHO DE JETRO",
+      "reading": "Êxodo 18:13-27",
+      "wisdom": "Quem tenta resolver tudo sozinho acaba servindo mal a todos.",
+      "sum": 168,
+      "k": 17,
+      "point": [
+        18,
+        32
+      ]
+    },
+    {
+      "day": 50,
+      "title": "ALIANÇA ANTES DA REGRA",
+      "reading": "Êxodo 19:1-8; 20:1-2",
+      "wisdom": "A lei não compra libertação; ensina libertos a não recriar o Egito.",
+      "sum": 154,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 51,
+      "title": "NENHUM OUTRO SENHOR",
+      "reading": "Êxodo 20:3-7",
+      "wisdom": "Ídolo é qualquer coisa boa promovida ao lugar de absoluto.",
+      "sum": 243,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 52,
+      "title": "TEMPO LIBERTADO",
+      "reading": "Êxodo 20:8-11; Deuteronômio 5:12-15",
+      "wisdom": "Descanso coletivo é resistência contra a economia sem alma.",
+      "sum": 155,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 53,
+      "title": "FAMÍLIA E VIDA",
+      "reading": "Êxodo 20:12-13",
+      "wisdom": "Honrar não significa permanecer disponível à destruição.",
+      "sum": 92,
+      "k": 5,
+      "point": [
+        5,
+        29
+      ]
+    },
+    {
+      "day": 54,
+      "title": "DESEJO, FIDELIDADE E VERDADE",
+      "reading": "Êxodo 20:14-16",
+      "wisdom": "Atração é energia; compromisso decide o que construir com ela.",
+      "sum": 181,
+      "k": 15,
+      "point": [
+        5,
+        8
+      ]
+    },
+    {
+      "day": 55,
+      "title": "A COBIÇA INVISÍVEL",
+      "reading": "Êxodo 20:17; Tiago 1:13-16",
+      "wisdom": "Antes do ato que todos veem existe uma história secreta repetida.",
+      "sum": 155,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 56,
+      "title": "JUSTIÇA CONCRETA",
+      "reading": "Êxodo 22:21-27; 23:1-9",
+      "wisdom": "Espiritualidade bíblica mede a pressão exercida sobre o vulnerável.",
+      "sum": 162,
+      "k": 18,
+      "point": [
+        25,
+        8
+      ]
+    },
+    {
+      "day": 57,
+      "title": "PRESENÇA NO CENTRO",
+      "reading": "Êxodo 33:12-23",
+      "wisdom": "Não basta chegar ao destino se você perde a alma no caminho.",
+      "sum": 185,
+      "k": 2,
+      "point": [
+        25,
+        29
+      ]
+    },
+    {
+      "day": 58,
+      "title": "BEZERRO DE OURO",
+      "reading": "Êxodo 32:1-14",
+      "wisdom": "Quando Deus demora, a ansiedade tenta fundir uma resposta rápida.",
+      "sum": 167,
+      "k": 5,
+      "point": [
+        5,
+        29
+      ]
+    },
+    {
+      "day": 59,
+      "title": "RECOMEÇO DAS TÁBUAS",
+      "reading": "Êxodo 34:1-10",
+      "wisdom": "Graça não é borracha moral; é material para reconstrução.",
+      "sum": 165,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 60,
+      "title": "FOGO ESTRANHO E SERIEDADE",
+      "reading": "Levítico 10:1-11",
+      "wisdom": "Intensidade não substitui responsabilidade.",
+      "sum": 218,
+      "k": 18,
+      "point": [
+        25,
+        8
+      ]
+    },
+    {
+      "day": 61,
+      "title": "BODE EXPIATÓRIO",
+      "reading": "Levítico 16:20-22; 19:15-18",
+      "wisdom": "Comunidades adoecem quando escolhem uma pessoa para carregar tudo.",
+      "sum": 158,
+      "k": 19,
+      "point": [
+        4,
+        36
+      ]
+    },
+    {
+      "day": 62,
+      "title": "REBELIÃO E LIDERANÇA",
+      "reading": "Números 12:1-10; 16:1-11",
+      "wisdom": "Nem toda oposição é profética; nem toda autoridade está certa.",
+      "sum": 139,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 63,
+      "title": "OLHAR PARA A PROMESSA",
+      "reading": "Números 13:25-33; 14:1-9",
+      "wisdom": "Coragem não é dizer que o gigante é pequeno; é recusar que ele seja deus.",
+      "sum": 197,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 64,
+      "title": "LEMBRAR PARA NÃO REPETIR",
+      "reading": "Deuteronômio 6:10-15; 8:11-18",
+      "wisdom": "Quem esquece a origem transforma gratidão em arrogância.",
+      "sum": 226,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 65,
+      "title": "AMAR COM INTEIREZA",
+      "reading": "Deuteronômio 6:4-9",
+      "wisdom": "O que é central aparece na porta, na mesa e no caminho.",
+      "sum": 171,
+      "k": 16,
+      "point": [
+        3,
+        6
+      ]
+    },
+    {
+      "day": 66,
+      "title": "JUSTIÇA ALÉM DA FRONTEIRA",
+      "reading": "Deuteronômio 10:12-22",
+      "wisdom": "O teste do pertencimento é como tratamos quem ainda não pertence.",
+      "sum": 225,
+      "k": 11,
+      "point": [
+        30,
+        4
+      ]
+    },
+    {
+      "day": 67,
+      "title": "ECONOMIA DO PERDÃO",
+      "reading": "Deuteronômio 15:1-11",
+      "wisdom": "Sociedade justa impede que o fracasso vire sentença hereditária.",
+      "sum": 153,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 68,
+      "title": "PROFETA SOB TESTE",
+      "reading": "Deuteronômio 13:1-4; 18:15-22",
+      "wisdom": "Carisma sem verdade é apenas magnetismo.",
+      "sum": 186,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 69,
+      "title": "VIDA E MORTE",
+      "reading": "Deuteronômio 30:11-20",
+      "wisdom": "Destino costuma chegar vestido de rotina.",
+      "sum": 112,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 70,
+      "title": "MOISÉS NO LIMITE",
+      "reading": "Deuteronômio 34:1-12",
+      "wisdom": "Não terminar tudo não significa ter vivido em vão.",
+      "sum": 177,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 71,
+      "title": "CORAGEM PARA OBEDECER",
+      "reading": "Josué 1:1-9",
+      "wisdom": "Coragem bíblica é foco sustentado, não barulho.",
+      "sum": 155,
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "day": 72,
+      "title": "RAABE E A ALIANÇA IMPROVÁVEL",
+      "reading": "Josué 2:1-21",
+      "wisdom": "A história de Deus frequentemente entra pela porta que a religião ignoraria.",
+      "sum": 207,
+      "k": 19,
+      "point": [
+        4,
+        36
+      ]
+    },
+    {
+      "day": 73,
+      "title": "PEDRAS DE MEMÓRIA",
+      "reading": "Josué 4:1-9",
+      "wisdom": "Sem memória, milagres antigos viram coincidências esquecidas.",
+      "sum": 146,
+      "k": 19,
+      "point": [
+        4,
+        36
+      ]
+    },
+    {
+      "day": 74,
+      "title": "JERICÓ E A TENSÃO DA CONQUISTA",
+      "reading": "Josué 6:15-25; Mateus 5:43-48",
+      "wisdom": "Textos violentos devem produzir humildade, nunca autorização para crueldade.",
+      "sum": 264,
+      "k": 18,
+      "point": [
+        25,
+        8
+      ]
+    },
+    {
+      "day": 75,
+      "title": "DERROTA ESCONDIDA",
+      "reading": "Josué 7:1-13,20-26",
+      "wisdom": "O segredo que alimentamos costuma cobrar de gente que não escolheu.",
+      "sum": 155,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 76,
+      "title": "ESCOLHAM HOJE",
+      "reading": "Josué 24:14-24",
+      "wisdom": "Todo altar contemporâneo pergunta: a quem seu tempo serve?",
+      "sum": 114,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 77,
+      "title": "DESCANSO INCOMPLETO",
+      "reading": "Josué 21:43-45; Hebreus 4:8-11",
+      "wisdom": "Chegar não elimina a necessidade de continuar sendo transformado.",
+      "sum": 202,
+      "k": 19,
+      "point": [
+        4,
+        36
+      ]
+    },
+    {
+      "day": 78,
+      "title": "O CICLO",
+      "reading": "Juízes 2:6-19",
+      "wisdom": "Aquilo que não é elaborado retorna com outro nome.",
+      "sum": 57,
+      "k": 15,
+      "point": [
+        5,
+        8
+      ]
+    },
+    {
+      "day": 79,
+      "title": "DÉBORA E BARAQUE",
+      "reading": "Juízes 4:4-16",
+      "wisdom": "A coragem de um pode acender a do outro sem apagar autoria.",
+      "sum": 115,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 80,
+      "title": "GIDEÃO INSEGURO",
+      "reading": "Juízes 6:11-24,36-40",
+      "wisdom": "Deus encontra o valente escondido sem fingir que ele já está pronto.",
+      "sum": 149,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 81,
+      "title": "PODER QUE SE MULTIPLICA",
+      "reading": "Juízes 8:22-35; 9:1-6",
+      "wisdom": "O nome recusado não importa quando o comportamento já construiu o trono.",
+      "sum": 241,
+      "k": 2,
+      "point": [
+        25,
+        29
+      ]
+    },
+    {
+      "day": 82,
+      "title": "JEFTÉ E O VOTO DESTRUTIVO",
+      "reading": "Juízes 11:29-40",
+      "wisdom": "Deus não precisa que você destrua alguém para provar devoção.",
+      "sum": 291,
+      "k": 13,
+      "point": [
+        7,
+        29
+      ]
+    },
+    {
+      "day": 83,
+      "title": "SANSÃO E O DESEJO",
+      "reading": "Juízes 14:1-9; 16:15-22",
+      "wisdom": "Química intensa não transforma descontrole em amor.",
+      "sum": 147,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 84,
+      "title": "O FUNDO DO POÇO",
+      "reading": "Juízes 19:22-30; 21:25",
+      "wisdom": "A Bíblia também abre a cena do crime para que ninguém chame barbárie de tradição.",
+      "sum": 143,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 85,
+      "title": "VOLTAR VAZIA",
+      "reading": "Rute 1:1-14",
+      "wisdom": "Fidelidade real oferece saída antes de celebrar permanência.",
+      "sum": 147,
+      "k": 12,
+      "point": [
+        15,
+        2
+      ]
+    },
+    {
+      "day": 86,
+      "title": "ONDE FORES, IREI",
+      "reading": "Rute 1:15-22",
+      "wisdom": "Esperança não exige que o enlutado finja doçura.",
+      "sum": 142,
+      "k": 8,
+      "point": [
+        15,
+        35
+      ]
+    },
+    {
+      "day": 87,
+      "title": "ESPIGAS NAS MARGENS",
+      "reading": "Rute 2:1-13; Levítico 19:9-10",
+      "wisdom": "Caridade bíblica inclui desenho econômico, não só emoção.",
+      "sum": 187,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 88,
+      "title": "SEGURANÇA NO CAMPO",
+      "reading": "Rute 2:14-23",
+      "wisdom": "Ambiente seguro é criado por regras, exemplo e prestação de contas.",
+      "sum": 166,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 89,
+      "title": "DESEJO COM RISCO",
+      "reading": "Rute 3:1-13",
+      "wisdom": "Desejo maduro protege o outro justamente quando poderia aproveitar-se.",
+      "sum": 153,
+      "k": 2,
+      "point": [
+        25,
+        29
+      ]
+    },
+    {
+      "day": 90,
+      "title": "REDENÇÃO PÚBLICA",
+      "reading": "Rute 4:1-12",
+      "wisdom": "Amor privado precisa de estruturas públicas que protejam os vulneráveis.",
+      "sum": 129,
+      "k": 19,
+      "point": [
+        4,
+        36
+      ]
+    },
+    {
+      "day": 91,
+      "title": "UMA ESTRANGEIRA NA LINHAGEM",
+      "reading": "Rute 4:13-22; Mateus 1:1-6",
+      "wisdom": "Deus escreve futuro com nomes que a fronteira tentou excluir.",
+      "sum": 236,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 92,
+      "title": "FALA, PORQUE OUÇO",
+      "reading": "1 Samuel 3:1-21",
+      "wisdom": "A voz que chama também educa o ouvido que ainda confunde sons.",
+      "sum": 166,
+      "k": 18,
+      "point": [
+        25,
+        8
+      ]
+    },
+    {
+      "day": 93,
+      "title": "FILHOS SEM FREIO",
+      "reading": "1 Samuel 2:12-17,22-25",
+      "wisdom": "Espiritualidade sem prestação de contas vira abrigo para predadores.",
+      "sum": 159,
+      "k": 12,
+      "point": [
+        15,
+        2
+      ]
+    },
+    {
+      "day": 94,
+      "title": "A ARCA COMO AMULETO",
+      "reading": "1 Samuel 4:1-11",
+      "wisdom": "Deus não é equipamento para garantir nossos projetos.",
+      "sum": 157,
+      "k": 11,
+      "point": [
+        30,
+        4
+      ]
+    },
+    {
+      "day": 95,
+      "title": "O POVO PEDE UM REI",
+      "reading": "1 Samuel 8:4-22",
+      "wisdom": "Poder prometido como proteção frequentemente chega cobrando servidão.",
+      "sum": 179,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 96,
+      "title": "SAUL COMEÇA PEQUENO",
+      "reading": "1 Samuel 9:15-21; 10:20-27",
+      "wisdom": "Começar escondido não impede crescer; permanecer escondido impede governar.",
+      "sum": 186,
+      "k": 2,
+      "point": [
+        25,
+        29
+      ]
+    },
+    {
+      "day": 97,
+      "title": "OBEDECER É MELHOR",
+      "reading": "1 Samuel 13:8-14; 15:17-23",
+      "wisdom": "Desculpa religiosa não transforma controle em fidelidade.",
+      "sum": 133,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 98,
+      "title": "DEUS VÊ O CORAÇÃO",
+      "reading": "1 Samuel 16:1-13",
+      "wisdom": "Ser subestimado não é prova de grandeza, mas pode ser espaço de formação.",
+      "sum": 147,
+      "k": 5,
+      "point": [
+        5,
+        29
+      ]
+    },
+    {
+      "day": 99,
+      "title": "DAVI E GOLIAS",
+      "reading": "1 Samuel 17:32-50",
+      "wisdom": "Não lute usando a armadura que impede você de se mover.",
+      "sum": 104,
+      "k": 3,
+      "point": [
+        18,
+        5
+      ]
+    },
+    {
+      "day": 100,
+      "title": "AMIZADE DE ALIANÇA",
+      "reading": "1 Samuel 18:1-5; 20:12-17",
+      "wisdom": "Amigo verdadeiro não transforma seu brilho em ameaça.",
+      "sum": 109,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 101,
+      "title": "O CIÚME DO REI",
+      "reading": "1 Samuel 18:6-16",
+      "wisdom": "Quem governa pelo medo chama talento de conspiração.",
+      "sum": 117,
+      "k": 18,
+      "point": [
+        25,
+        8
+      ]
+    },
+    {
+      "day": 102,
+      "title": "POUPAR O INIMIGO",
+      "reading": "1 Samuel 24:1-12",
+      "wisdom": "Poder moral aparece quando você pode ferir e decide não fazê-lo.",
+      "sum": 178,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 103,
+      "title": "ABIGAIL INTERROMPE SANGUE",
+      "reading": "1 Samuel 25:18-35",
+      "wisdom": "O mediador não apenas evita uma briga; protege quem você será depois dela.",
+      "sum": 241,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 104,
+      "title": "LAMENTO PELO RIVAL",
+      "reading": "2 Samuel 1:17-27",
+      "wisdom": "Maturidade consegue lamentar sem apagar a verdade.",
+      "sum": 190,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 105,
+      "title": "COROA E TENTAÇÃO",
+      "reading": "2 Samuel 5:1-12; Salmo 78:70-72",
+      "wisdom": "Subir ao trono não encerra a formação; amplia suas consequências.",
+      "sum": 136,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 106,
+      "title": "DESEJO E ABUSO DE PODER",
+      "reading": "2 Samuel 11:1-17",
+      "wisdom": "Quando poder encontra desejo sem limite, alguém vulnerável paga.",
+      "sum": 188,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 107,
+      "title": "TU ÉS O HOMEM",
+      "reading": "2 Samuel 12:1-13",
+      "wisdom": "O poder precisa de alguém autorizado a dizer: você é o responsável.",
+      "sum": 134,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 108,
+      "title": "SALMO DA CONFISSÃO",
+      "reading": "Salmo 51:1-17",
+      "wisdom": "Arrependimento não administra imagem; pede recriação.",
+      "sum": 166,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 109,
+      "title": "CONSEQUÊNCIAS NA CASA",
+      "reading": "2 Samuel 13:1-22",
+      "wisdom": "Paixão que ignora consentimento não é amor; é violência.",
+      "sum": 184,
+      "k": 13,
+      "point": [
+        7,
+        29
+      ]
+    },
+    {
+      "day": 110,
+      "title": "VINGANÇA DE ABSALÃO",
+      "reading": "2 Samuel 13:23-39; 15:1-6",
+      "wisdom": "Quando a justiça falha, a vingança se oferece como falso salvador.",
+      "sum": 131,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 111,
+      "title": "O REI DESCALÇO",
+      "reading": "2 Samuel 15:13-30",
+      "wisdom": "Crise revela se Deus era companhia ou garantia de cargo.",
+      "sum": 109,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 112,
+      "title": "GRAÇA CARA E LEGADO",
+      "reading": "2 Samuel 24:18-25; 1 Crônicas 29:10-19",
+      "wisdom": "Reparação verdadeira custa mais que palavras e não exige protagonismo final.",
+      "sum": 102,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 113,
+      "title": "PEDIR SABEDORIA",
+      "reading": "1 Reis 3:3-14",
+      "wisdom": "A melhor inteligência é aquela que aprende a decidir para o bem comum.",
+      "sum": 126,
+      "k": 19,
+      "point": [
+        4,
+        36
+      ]
+    },
+    {
+      "day": 114,
+      "title": "AS DUAS MÃES",
+      "reading": "1 Reis 3:16-28",
+      "wisdom": "Sabedoria não é adivinhar; é criar um teste que exponha o coração.",
+      "sum": 103,
+      "k": 17,
+      "point": [
+        18,
+        32
+      ]
+    },
+    {
+      "day": 115,
+      "title": "CONSTRUIR O TEMPLO",
+      "reading": "1 Reis 8:22-30,41-43",
+      "wisdom": "O sagrado não é propriedade privada de quem construiu o prédio.",
+      "sum": 233,
+      "k": 8,
+      "point": [
+        15,
+        35
+      ]
+    },
+    {
+      "day": 116,
+      "title": "GLÓRIA E TRABALHO PESADO",
+      "reading": "1 Reis 5:13-18; 9:15-23",
+      "wisdom": "Monumento admirável pode carregar nas paredes o cansaço de invisíveis.",
+      "sum": 204,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 117,
+      "title": "A RAINHA PERGUNTA",
+      "reading": "1 Reis 10:1-10",
+      "wisdom": "Verdade sólida não teme investigação intensa.",
+      "sum": 154,
+      "k": 11,
+      "point": [
+        30,
+        4
+      ]
+    },
+    {
+      "day": 118,
+      "title": "AMORES QUE DESVIAM",
+      "reading": "1 Reis 11:1-13",
+      "wisdom": "O problema não é amar muito; é usar relações para alimentar poder e perder o centro.",
+      "sum": 187,
+      "k": 5,
+      "point": [
+        5,
+        29
+      ]
+    },
+    {
+      "day": 119,
+      "title": "O REINO RACHA",
+      "reading": "1 Reis 12:1-19",
+      "wisdom": "Quem precisa parecer forte costuma esmagar a ponte que o sustentava.",
+      "sum": 107,
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "day": 120,
+      "title": "ALTARES CONVENIENTES",
+      "reading": "1 Reis 12:25-33",
+      "wisdom": "Poder fabrica liturgia quando precisa impedir o povo de ir longe.",
+      "sum": 221,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 121,
+      "title": "PROFETA COMPRADO",
+      "reading": "1 Reis 13:11-24",
+      "wisdom": "Nem toda frase que começa com 'Deus disse' veio de Deus.",
+      "sum": 166,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 122,
+      "title": "ASA E AS REFORMAS",
+      "reading": "2 Crônicas 14:1-12; 16:7-10",
+      "wisdom": "Ontem fiel não é vacina contra o orgulho de hoje.",
+      "sum": 141,
+      "k": 3,
+      "point": [
+        18,
+        5
+      ]
+    },
+    {
+      "day": 123,
+      "title": "ACABE E A VINHA",
+      "reading": "1 Reis 21:1-19",
+      "wisdom": "Quando o poderoso diz 'negócio', pergunte se o vulnerável ouviu 'ameaça'.",
+      "sum": 72,
+      "k": 15,
+      "point": [
+        5,
+        8
+      ]
+    },
+    {
+      "day": 124,
+      "title": "JOSAFÁ E A ALIANÇA",
+      "reading": "2 Crônicas 18:1-8,18-27",
+      "wisdom": "Cem aplausos não transformam mentira em estratégia.",
+      "sum": 99,
+      "k": 3,
+      "point": [
+        18,
+        5
+      ]
+    },
+    {
+      "day": 125,
+      "title": "EZEQUIAS SOB CERCO",
+      "reading": "2 Reis 18:28-37; 19:1-7",
+      "wisdom": "Nem todo ataque merece resposta imediata; alguns perdem força sem plateia.",
+      "sum": 183,
+      "k": 8,
+      "point": [
+        15,
+        35
+      ]
+    },
+    {
+      "day": 126,
+      "title": "JOSIAS E O LIVRO PERDIDO",
+      "reading": "2 Reis 22:8-13; 23:1-3",
+      "wisdom": "Instituição religiosa pode cantar muito e ainda ter perdido o livro.",
+      "sum": 240,
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "day": 127,
+      "title": "DIANTE DO REI",
+      "reading": "1 Reis 17:1-7",
+      "wisdom": "Não confunda exposição constante com fidelidade.",
+      "sum": 104,
+      "k": 11,
+      "point": [
+        30,
+        4
+      ]
+    },
+    {
+      "day": 128,
+      "title": "A VIÚVA E O POUCO",
+      "reading": "1 Reis 17:8-16",
+      "wisdom": "Às vezes o milagre parece apenas farinha que não acaba hoje.",
+      "sum": 166,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 129,
+      "title": "FOGO NO CARMELO",
+      "reading": "1 Reis 18:20-39",
+      "wisdom": "Barulho, ferimento e espetáculo não obrigam Deus a responder.",
+      "sum": 139,
+      "k": 8,
+      "point": [
+        15,
+        35
+      ]
+    },
+    {
+      "day": 130,
+      "title": "DEPOIS DO AUGE",
+      "reading": "1 Reis 19:1-8",
+      "wisdom": "Antes de chamar tudo de falta de fé, verifique sono, fome e exaustão.",
+      "sum": 121,
+      "k": 11,
+      "point": [
+        30,
+        4
+      ]
+    },
+    {
+      "day": 131,
+      "title": "O SOM DELICADO",
+      "reading": "1 Reis 19:9-18",
+      "wisdom": "A mente exausta conta 'só eu'; a realidade talvez guarde sete mil.",
+      "sum": 115,
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "day": 132,
+      "title": "NABOTE TEM NOME",
+      "reading": "1 Reis 21:17-29",
+      "wisdom": "A profecia impede que a vítima desapareça atrás do decreto.",
+      "sum": 142,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 133,
+      "title": "MACHADO QUE FLUTUA",
+      "reading": "2 Reis 6:1-7",
+      "wisdom": "Nem toda intervenção precisa ser épica para ser santa.",
+      "sum": 169,
+      "k": 2,
+      "point": [
+        25,
+        29
+      ]
+    },
+    {
+      "day": 134,
+      "title": "AVISOS REPETIDOS",
+      "reading": "2 Reis 17:5-18",
+      "wisdom": "Colapso raramente chega sem sinais; o problema é acostumar-se a eles.",
+      "sum": 196,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 135,
+      "title": "JERUSALÉM SITIADA",
+      "reading": "2 Reis 25:1-12",
+      "wisdom": "Quando o lugar sagrado cai, a pergunta é o que permanece dentro do povo.",
+      "sum": 167,
+      "k": 2,
+      "point": [
+        25,
+        29
+      ]
+    },
+    {
+      "day": 136,
+      "title": "JUNTO AOS RIOS",
+      "reading": "Salmo 137:1-6",
+      "wisdom": "Há momentos em que não cantar é parte da honestidade.",
+      "sum": 176,
+      "k": 12,
+      "point": [
+        15,
+        2
+      ]
+    },
+    {
+      "day": 137,
+      "title": "BUSQUEM A PAZ DA CIDADE",
+      "reading": "Jeremias 29:1-14",
+      "wisdom": "Esperar biblicamente é plantar jardins sem esquecer a liberdade.",
+      "sum": 173,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 138,
+      "title": "FIDELIDADE NA MINORIA",
+      "reading": "Daniel 1:3-17",
+      "wisdom": "Rebelar-se não exige incompetência; pode exigir excelência sem assimilação.",
+      "sum": 153,
+      "k": 11,
+      "point": [
+        30,
+        4
+      ]
+    },
+    {
+      "day": 139,
+      "title": "LAMENTAÇÕES SEM ATALHO",
+      "reading": "Lamentações 3:19-33",
+      "wisdom": "Esperança robusta nasce no meio do lamento, não no apagamento dele.",
+      "sum": 202,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 140,
+      "title": "UM RESTO E UMA SEMENTE",
+      "reading": "Isaías 6:9-13; 11:1-9",
+      "wisdom": "Deus trabalha com tocos quando o império só enxerga floresta perdida.",
+      "sum": 232,
+      "k": 12,
+      "point": [
+        15,
+        2
+      ]
+    },
+    {
+      "day": 141,
+      "title": "DESPERTAR PARA RECONSTRUIR",
+      "reading": "Esdras 1:1-8; 3:10-13",
+      "wisdom": "A mesma reconstrução pode soar como festa e luto para gerações diferentes.",
+      "sum": 302,
+      "k": 3,
+      "point": [
+        18,
+        5
+      ]
+    },
+    {
+      "day": 142,
+      "title": "O CUSTO DA PUREZA",
+      "reading": "Esdras 9:1-4; 10:1-12",
+      "wisdom": "Proteger identidade nunca deve tornar pessoas descartáveis.",
+      "sum": 185,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 143,
+      "title": "MUROS E DIAGNÓSTICO",
+      "reading": "Neemias 1:1-11; 2:11-18",
+      "wisdom": "Antes de prometer reconstrução, caminhe de noite entre as ruínas.",
+      "sum": 207,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 144,
+      "title": "ESPADA E FERRAMENTA",
+      "reading": "Neemias 4:9-20",
+      "wisdom": "Construir em ambiente hostil requer ferramenta, proteção e comunicação.",
+      "sum": 152,
+      "k": 16,
+      "point": [
+        3,
+        6
+      ]
+    },
+    {
+      "day": 145,
+      "title": "JUSTIÇA DENTRO DOS MUROS",
+      "reading": "Neemias 5:1-13",
+      "wisdom": "Não adianta erguer muralha sagrada enquanto famílias são devoradas por dívida.",
+      "sum": 283,
+      "k": 8,
+      "point": [
+        15,
+        35
+      ]
+    },
+    {
+      "day": 146,
+      "title": "ESTER ENCONTRA SUA HORA",
+      "reading": "Ester 4:10-17",
+      "wisdom": "Talvez você tenha chegado ao lugar não para estar seguro, mas para abrir passagem.",
+      "sum": 240,
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "day": 147,
+      "title": "BANQUETE E REVERSÃO",
+      "reading": "Ester 7:1-10; 9:20-28",
+      "wisdom": "A festa mais profunda é aquela que lembra o perigo e distribui presentes.",
+      "sum": 193,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 148,
+      "title": "INTEGRIDADE ATINGIDA",
+      "reading": "Jó 1:1-22",
+      "wisdom": "Nem toda tragédia é lição personalizada enviada por Deus.",
+      "sum": 161,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 149,
+      "title": "AMIGOS EM SILÊNCIO",
+      "reading": "Jó 2:7-13",
+      "wisdom": "Os amigos de Jó foram melhores enquanto ficaram calados.",
+      "sum": 168,
+      "k": 17,
+      "point": [
+        18,
+        32
+      ]
+    },
+    {
+      "day": 150,
+      "title": "MALDITO O MEU DIA",
+      "reading": "Jó 3:1-26",
+      "wisdom": "Dar linguagem ao abismo pode impedir que ele permaneça clandestino.",
+      "sum": 142,
+      "k": 12,
+      "point": [
+        15,
+        2
+      ]
+    },
+    {
+      "day": 151,
+      "title": "A TEOLOGIA QUE ACUSA",
+      "reading": "Jó 8:1-7; 11:1-6",
+      "wisdom": "Uma explicação correta em geral pode ser violência quando aplicada sem escuta.",
+      "sum": 173,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 152,
+      "title": "O REDENTOR ESPERADO",
+      "reading": "Jó 19:23-27",
+      "wisdom": "Esperança não cancela o processo; pede que a verdade tenha testemunha.",
+      "sum": 197,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 153,
+      "title": "DEUS PERGUNTA",
+      "reading": "Jó 38:1-18; 40:1-5",
+      "wisdom": "A resposta ao mistério pode ser uma realidade maior, não uma explicação menor.",
+      "sum": 151,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 154,
+      "title": "RESTAURAÇÃO E CRÍTICA",
+      "reading": "Jó 42:1-10",
+      "wisdom": "Deus prefere a verdade turbulenta de Jó à certeza cruel dos amigos.",
+      "sum": 190,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 155,
+      "title": "DUAS ESTRADAS",
+      "reading": "Salmo 1",
+      "wisdom": "A árvore não corre atrás da estação; aprofunda a raiz.",
+      "sum": 132,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 156,
+      "title": "O UNIVERSO CANTA",
+      "reading": "Salmo 19",
+      "wisdom": "Sabedoria escuta o céu sem deixar de examinar o coração.",
+      "sum": 177,
+      "k": 13,
+      "point": [
+        7,
+        29
+      ]
+    },
+    {
+      "day": 157,
+      "title": "VALE E MESA",
+      "reading": "Salmo 23",
+      "wisdom": "A promessa não é ausência de vale; é companhia dentro dele.",
+      "sum": 83,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 158,
+      "title": "POR QUE ME ABANDONASTE?",
+      "reading": "Salmo 22:1-24; Marcos 15:34",
+      "wisdom": "A fé também tem um grito; silenciá-lo não torna ninguém mais santo.",
+      "sum": 206,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 159,
+      "title": "MEDO EM COMBATE",
+      "reading": "Salmo 27",
+      "wisdom": "Coragem é treinar o coração enquanto ainda se espera.",
+      "sum": 114,
+      "k": 13,
+      "point": [
+        7,
+        29
+      ]
+    },
+    {
+      "day": 160,
+      "title": "PERDÃO RESPIRÁVEL",
+      "reading": "Salmo 32",
+      "wisdom": "Segredo culpado ocupa mais espaço do que verdade confessada.",
+      "sum": 184,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 161,
+      "title": "TODO SER QUE RESPIRA",
+      "reading": "Salmos 148; 150",
+      "wisdom": "Se há fôlego, ainda existe uma nota possível.",
+      "sum": 225,
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "day": 162,
+      "title": "O PRINCÍPIO",
+      "reading": "Provérbios 1:1-7",
+      "wisdom": "Inteligência sem reverência pode apenas sofisticar o dano.",
+      "sum": 124,
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "day": 163,
+      "title": "COMPANHIAS E PRESSÃO",
+      "reading": "Provérbios 1:8-19; 13:20",
+      "wisdom": "Quem escolhe a roda escolhe também parte do destino.",
+      "sum": 197,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 164,
+      "title": "CORAÇÃO GUARDADO",
+      "reading": "Provérbios 4:20-27",
+      "wisdom": "Aquilo que recebe atenção repetida começa a dirigir a vida.",
+      "sum": 127,
+      "k": 11,
+      "point": [
+        30,
+        4
+      ]
+    },
+    {
+      "day": 165,
+      "title": "PALAVRA QUE CURA",
+      "reading": "Provérbios 12:18; 15:1-4; 18:21",
+      "wisdom": "Sinceridade não precisa usar crueldade como prova de coragem.",
+      "sum": 157,
+      "k": 2,
+      "point": [
+        25,
+        29
+      ]
+    },
+    {
+      "day": 166,
+      "title": "PREGUIÇA E RITMO",
+      "reading": "Provérbios 6:6-11; 24:30-34",
+      "wisdom": "Ruína cotidiana raramente arromba a porta; entra por pequenas frestas.",
+      "sum": 160,
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "day": 167,
+      "title": "DINHEIRO E BALANÇA",
+      "reading": "Provérbios 11:1-4,24-28; 22:7",
+      "wisdom": "Dinheiro é excelente ferramenta e péssimo senhor.",
+      "sum": 121,
+      "k": 8,
+      "point": [
+        15,
+        35
+      ]
+    },
+    {
+      "day": 168,
+      "title": "DESEJO E FIDELIDADE",
+      "reading": "Provérbios 5:15-23; 7:6-27",
+      "wisdom": "Fogo aquece a casa quando há lareira; solto, transforma tudo em cinza.",
+      "sum": 122,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 169,
+      "title": "VAPOR",
+      "reading": "Eclesiastes 1:1-11",
+      "wisdom": "Aceitar que a vida é vapor pode libertar do culto à permanência.",
+      "sum": 72,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 170,
+      "title": "PRAZER EM LABORATÓRIO",
+      "reading": "Eclesiastes 2:1-11",
+      "wisdom": "Ter tudo ao alcance não garante ter por que levantar.",
+      "sum": 228,
+      "k": 18,
+      "point": [
+        25,
+        8
+      ]
+    },
+    {
+      "day": 171,
+      "title": "TEMPO PARA TUDO",
+      "reading": "Eclesiastes 3:1-15",
+      "wisdom": "Sofremos quando exigimos colheita no tempo de semear.",
+      "sum": 165,
+      "k": 16,
+      "point": [
+        3,
+        6
+      ]
+    },
+    {
+      "day": 172,
+      "title": "DOIS SÃO MELHORES",
+      "reading": "Eclesiastes 4:7-12",
+      "wisdom": "Parceria não elimina queda; muda quem estará no chão com você.",
+      "sum": 177,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 173,
+      "title": "CASA DE LUTO",
+      "reading": "Eclesiastes 7:1-10",
+      "wisdom": "Memento mori não é pessimismo; é triagem do que merece vida.",
+      "sum": 101,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 174,
+      "title": "RISCO E TRABALHO",
+      "reading": "Eclesiastes 11:1-6",
+      "wisdom": "Quem exige certeza total entrega o futuro ao medo.",
+      "sum": 146,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 175,
+      "title": "TEME A DEUS E VIVE",
+      "reading": "Eclesiastes 12:1-14",
+      "wisdom": "Depois de desmontar ilusões, a sabedoria devolve o cotidiano como vocação.",
+      "sum": 156,
+      "k": 11,
+      "point": [
+        30,
+        4
+      ]
+    },
+    {
+      "day": 176,
+      "title": "BEIJO E DESEJO",
+      "reading": "Cântico dos Cânticos 1:1-4",
+      "wisdom": "A Bíblia não trata desejo como sujeira; trata pessoas como dignidade.",
+      "sum": 104,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 177,
+      "title": "MEU CORPO, MINHA VOZ",
+      "reading": "Cântico dos Cânticos 1:5-8",
+      "wisdom": "Amar alguém inclui ouvir como essa pessoa habita o próprio corpo.",
+      "sum": 214,
+      "k": 11,
+      "point": [
+        30,
+        4
+      ]
+    },
+    {
+      "day": 178,
+      "title": "BELEZA QUE CONVERSA",
+      "reading": "Cântico dos Cânticos 2:1-7",
+      "wisdom": "O ápice da química ainda precisa respeitar o relógio do consentimento.",
+      "sum": 191,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 179,
+      "title": "LEVANTA-TE, VEM",
+      "reading": "Cântico dos Cânticos 2:8-17",
+      "wisdom": "Grandes paixões também morrem por pequenas negligências repetidas.",
+      "sum": 140,
+      "k": 19,
+      "point": [
+        4,
+        36
+      ]
+    },
+    {
+      "day": 180,
+      "title": "BUSCA NA NOITE",
+      "reading": "Cântico dos Cânticos 3:1-5; 5:2-8",
+      "wisdom": "Romantizar perseguição é diferente de reconhecer saudade e vulnerabilidade.",
+      "sum": 124,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 181,
+      "title": "VOCÊ É BELA POR INTEIRO",
+      "reading": "Cântico dos Cânticos 4:1-16",
+      "wisdom": "Exclusividade só é bela quando nasce de escolha livre e protegida.",
+      "sum": 209,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 182,
+      "title": "FORTE COMO A MORTE",
+      "reading": "Cântico dos Cânticos 8:6-7",
+      "wisdom": "Desejo é potência; amor é potência que aceita responsabilidade.",
+      "sum": 182,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 183,
+      "title": "CULTO QUE DEUS RECUSA",
+      "reading": "Isaías 1:10-20",
+      "wisdom": "Deus não aceita música alta para abafar o grito do oprimido.",
+      "sum": 230,
+      "k": 13,
+      "point": [
+        7,
+        29
+      ]
+    },
+    {
+      "day": 184,
+      "title": "AI DE MIM",
+      "reading": "Isaías 6:1-8",
+      "wisdom": "A visão de Deus não infla o profeta; desmonta e envia.",
+      "sum": 54,
+      "k": 18,
+      "point": [
+        25,
+        8
+      ]
+    },
+    {
+      "day": 185,
+      "title": "A VINHA AMARGA",
+      "reading": "Isaías 5:1-7",
+      "wisdom": "Uma vinha não é julgada pelo rótulo da garrafa, mas pelo fruto.",
+      "sum": 96,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 186,
+      "title": "AI DOS QUE ACUMULAM",
+      "reading": "Isaías 5:8-15",
+      "wisdom": "Quando poucos ocupam todo o espaço, muitos perdem até o horizonte.",
+      "sum": 176,
+      "k": 2,
+      "point": [
+        25,
+        29
+      ]
+    },
+    {
+      "day": 187,
+      "title": "O SINAL DE EMANUEL",
+      "reading": "Isaías 7:10-16; Mateus 1:22-23",
+      "wisdom": "Deus conosco não significa Deus a serviço do nosso medo.",
+      "sum": 150,
+      "k": 17,
+      "point": [
+        18,
+        32
+      ]
+    },
+    {
+      "day": 188,
+      "title": "PRÍNCIPE DA PAZ",
+      "reading": "Isaías 9:1-7",
+      "wisdom": "A paz bíblica quebra a vara do opressor antes de decorar a sala.",
+      "sum": 138,
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "day": 189,
+      "title": "JEJUM QUE LIBERTA",
+      "reading": "Isaías 58:1-12",
+      "wisdom": "Disciplina que não liberta ninguém pode ser apenas vaidade austera.",
+      "sum": 169,
+      "k": 18,
+      "point": [
+        25,
+        8
+      ]
+    },
+    {
+      "day": 190,
+      "title": "CONSOLO AO EXILADO",
+      "reading": "Isaías 40:1-11,27-31",
+      "wisdom": "O Deus das galáxias também carrega cordeiros junto ao peito.",
+      "sum": 179,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 191,
+      "title": "SERVO QUE NÃO ESMAGA",
+      "reading": "Isaías 42:1-9",
+      "wisdom": "Força do Reino é firme o bastante para não precisar esmagar.",
+      "sum": 198,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 192,
+      "title": "CHAMADO PELO NOME",
+      "reading": "Isaías 43:1-7,18-19",
+      "wisdom": "Você não é propriedade do incêndio que atravessou.",
+      "sum": 140,
+      "k": 12,
+      "point": [
+        15,
+        2
+      ]
+    },
+    {
+      "day": 193,
+      "title": "BOM ANÚNCIO AOS POBRES",
+      "reading": "Isaías 52:7-10; 61:1-4",
+      "wisdom": "Notícia só é boa se quem sofre consegue reconhecê-la como boa.",
+      "sum": 217,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 194,
+      "title": "FERIDO POR NÓS",
+      "reading": "Isaías 52:13-53:12",
+      "wisdom": "A cruz revela amor que enfrenta violência; não autoriza impor violência.",
+      "sum": 154,
+      "k": 8,
+      "point": [
+        15,
+        35
+      ]
+    },
+    {
+      "day": 195,
+      "title": "CONVITE GRATUITO",
+      "reading": "Isaías 55:1-13",
+      "wisdom": "A graça não está à venda, mas também não deixa o viajante igual.",
+      "sum": 199,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 196,
+      "title": "NOVOS CÉUS E NOVA TERRA",
+      "reading": "Isaías 65:17-25",
+      "wisdom": "O futuro bíblico tem casas, vinhas, crianças e trabalho sem exploração.",
+      "sum": 252,
+      "k": 8,
+      "point": [
+        15,
+        35
+      ]
+    },
+    {
+      "day": 197,
+      "title": "ANTES DE NASCER",
+      "reading": "Jeremias 1:4-10",
+      "wisdom": "Profeta não é quem só destrói; também prepara terra para vida.",
+      "sum": 128,
+      "k": 5,
+      "point": [
+        5,
+        29
+      ]
+    },
+    {
+      "day": 198,
+      "title": "CISTERNA RACHADA",
+      "reading": "Jeremias 2:9-13",
+      "wisdom": "Há sede que nenhum recipiente rachado de status consegue resolver.",
+      "sum": 125,
+      "k": 3,
+      "point": [
+        18,
+        5
+      ]
+    },
+    {
+      "day": 199,
+      "title": "TEMPLO NÃO É ESCUDO",
+      "reading": "Jeremias 7:1-15",
+      "wisdom": "Repetir 'templo' não impede que a injustiça derrube a porta.",
+      "sum": 183,
+      "k": 2,
+      "point": [
+        25,
+        29
+      ]
+    },
+    {
+      "day": 200,
+      "title": "FOGO NOS OSSOS",
+      "reading": "Jeremias 20:7-13",
+      "wisdom": "Vocação não é sempre entusiasmo; às vezes é fogo que impede silêncio cúmplice.",
+      "sum": 178,
+      "k": 18,
+      "point": [
+        25,
+        8
+      ]
+    },
+    {
+      "day": 201,
+      "title": "A CARTA AOS EXILADOS",
+      "reading": "Jeremias 29:4-14",
+      "wisdom": "Fé adulta planta árvores cuja sombra talvez pertença a outros.",
+      "sum": 168,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 202,
+      "title": "O CAMPO COMPRADO",
+      "reading": "Jeremias 32:6-15",
+      "wisdom": "Esperança bíblica pode ter contrato, testemunha e cópia arquivada.",
+      "sum": 148,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 203,
+      "title": "LEI NO CORAÇÃO",
+      "reading": "Jeremias 31:31-34",
+      "wisdom": "Transformação durável escreve por dentro o que a coerção não consegue impor.",
+      "sum": 111,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 204,
+      "title": "GLÓRIA EM MOVIMENTO",
+      "reading": "Ezequiel 1:4-21,28",
+      "wisdom": "Quando tudo muda de lugar, Deus não fica para trás nas ruínas.",
+      "sum": 206,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 205,
+      "title": "ATALAIA",
+      "reading": "Ezequiel 3:16-21; 33:1-9",
+      "wisdom": "O atalaia não fabrica a tempestade; também não finge céu limpo.",
+      "sum": 45,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 206,
+      "title": "CADA PESSOA RESPONDE",
+      "reading": "Ezequiel 18:1-9,20-23",
+      "wisdom": "Você recebe uma história, mas ainda participa da direção que ela toma.",
+      "sum": 180,
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "day": 207,
+      "title": "PASTORES QUE SE ALIMENTAM",
+      "reading": "Ezequiel 34:1-16",
+      "wisdom": "Líder que só se alimenta já deixou de ser pastor.",
+      "sum": 268,
+      "k": 15,
+      "point": [
+        5,
+        8
+      ]
+    },
+    {
+      "day": 208,
+      "title": "CORAÇÃO DE CARNE",
+      "reading": "Ezequiel 36:22-28",
+      "wisdom": "Regra pode conter uma mão; só transformação muda o desejo.",
+      "sum": 106,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 209,
+      "title": "VALE DE OSSOS",
+      "reading": "Ezequiel 37:1-14",
+      "wisdom": "Esperança não chama os ossos de vivos; trabalha até que recebam fôlego.",
+      "sum": 136,
+      "k": 5,
+      "point": [
+        5,
+        29
+      ]
+    },
+    {
+      "day": 210,
+      "title": "RIO DO TEMPLO",
+      "reading": "Ezequiel 47:1-12",
+      "wisdom": "O sagrado autêntico corre para fora e torna o mundo habitável.",
+      "sum": 142,
+      "k": 12,
+      "point": [
+        15,
+        2
+      ]
+    },
+    {
+      "day": 211,
+      "title": "MESA IMPERIAL",
+      "reading": "Daniel 1:8-21",
+      "wisdom": "Resistência inteligente escolhe a batalha e mede o resultado.",
+      "sum": 121,
+      "k": 12,
+      "point": [
+        15,
+        2
+      ]
+    },
+    {
+      "day": 212,
+      "title": "SONHO E HUMILDADE",
+      "reading": "Daniel 2:14-23,27-30",
+      "wisdom": "Saber algo raro não torna você a origem da verdade.",
+      "sum": 153,
+      "k": 5,
+      "point": [
+        5,
+        29
+      ]
+    },
+    {
+      "day": 213,
+      "title": "ESTÁTUA E FORNALHA",
+      "reading": "Daniel 3:8-18",
+      "wisdom": "Fé madura permanece sem exigir que o milagre assine contrato.",
+      "sum": 167,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 214,
+      "title": "O REI VIRA FERA",
+      "reading": "Daniel 4:27-37",
+      "wisdom": "Quando o poder deixa de olhar para cima e para o lado, começa a andar como fera.",
+      "sum": 127,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 215,
+      "title": "A ESCRITA NA PAREDE",
+      "reading": "Daniel 5:17-30",
+      "wisdom": "Toda festa do império tem uma parede que o bajulador evita ler.",
+      "sum": 140,
+      "k": 15,
+      "point": [
+        5,
+        8
+      ]
+    },
+    {
+      "day": 216,
+      "title": "JANELAS ABERTAS",
+      "reading": "Daniel 6:6-23",
+      "wisdom": "Rotina espiritual discreta prepara para crises públicas.",
+      "sum": 128,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 217,
+      "title": "REINOS E ESPERANÇA",
+      "reading": "Daniel 7:9-14,21-27",
+      "wisdom": "A visão apocalíptica não ensina fuga; ensina a não adorar a besta da vez.",
+      "sum": 167,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 218,
+      "title": "AMOR TRAÍDO",
+      "reading": "Oséias 2:14-23; 6:1-6",
+      "wisdom": "Deus procura amor leal, não performance usada para evitar mudança.",
+      "sum": 114,
+      "k": 12,
+      "point": [
+        15,
+        2
+      ]
+    },
+    {
+      "day": 219,
+      "title": "JUSTIÇA COMO RIO",
+      "reading": "Amós 5:10-24",
+      "wisdom": "Deus pode pedir silêncio à canção quando a rua está cheia de abuso.",
+      "sum": 171,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 220,
+      "title": "O QUE DEUS PEDE",
+      "reading": "Miquéias 6:6-8",
+      "wisdom": "A síntese profética cabe numa frase e ocupa uma vida inteira.",
+      "sum": 137,
+      "k": 17,
+      "point": [
+        18,
+        32
+      ]
+    },
+    {
+      "day": 221,
+      "title": "NÍNIVE E O PROFETA IRRITADO",
+      "reading": "Jonas 3:1-10; 4:1-11",
+      "wisdom": "Às vezes resistimos à graça porque ela alcançou quem queríamos punir.",
+      "sum": 268,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 222,
+      "title": "AINDA QUE A FIGUEIRA",
+      "reading": "Habacuque 1:2-4; 3:17-19",
+      "wisdom": "Fé não chama a figueira vazia de cheia; encontra força sem mentir sobre ela.",
+      "sum": 149,
+      "k": 11,
+      "point": [
+        30,
+        4
+      ]
+    },
+    {
+      "day": 223,
+      "title": "DO LUTO À DANÇA",
+      "reading": "Joel 2:12-17,28-29",
+      "wisdom": "Quando o Espírito chega, a voz deixa de ser monopólio da elite.",
+      "sum": 111,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 224,
+      "title": "O SOL DA JUSTIÇA",
+      "reading": "Malaquias 3:1-5; 4:1-6",
+      "wisdom": "Renovação espiritual que não reconcilia gerações continua incompleta.",
+      "sum": 149,
+      "k": 13,
+      "point": [
+        7,
+        29
+      ]
+    },
+    {
+      "day": 225,
+      "title": "GENEALOGIA IRREGULAR",
+      "reading": "Mateus 1:1-17",
+      "wisdom": "Deus não edita a família para parecer respeitável antes de entrar nela.",
+      "sum": 185,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 226,
+      "title": "O SIM DE MARIA",
+      "reading": "Lucas 1:26-38",
+      "wisdom": "Coragem espiritual pode dizer 'como será?' antes de dizer 'que se cumpra'.",
+      "sum": 107,
+      "k": 13,
+      "point": [
+        7,
+        29
+      ]
+    },
+    {
+      "day": 227,
+      "title": "MAGNIFICAT REBELDE",
+      "reading": "Lucas 1:46-55",
+      "wisdom": "A canção de Maria é suave no berço e explosiva contra tronos.",
+      "sum": 134,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 228,
+      "title": "JOSÉ MUDA O PLANO",
+      "reading": "Mateus 1:18-25",
+      "wisdom": "Homem justo não usa honra própria para destruir a mulher vulnerável.",
+      "sum": 161,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 229,
+      "title": "O DEUS NA MANJEDOURA",
+      "reading": "Lucas 2:1-20",
+      "wisdom": "Se Deus aceita a manjedoura, nenhum lugar humilde está fora do alcance.",
+      "sum": 181,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 230,
+      "title": "MAGOS E TIRANO",
+      "reading": "Mateus 2:1-18",
+      "wisdom": "Não use a alegria do Natal para silenciar o choro de Raquel.",
+      "sum": 137,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 231,
+      "title": "O VERBO HABITOU",
+      "reading": "João 1:1-18",
+      "wisdom": "O infinito não grita de longe; arma sua tenda entre nós.",
+      "sum": 153,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 232,
+      "title": "PREPAREM O CAMINHO",
+      "reading": "Lucas 3:1-14",
+      "wisdom": "Arrependimento que não toca dinheiro e poder talvez seja apenas emoção.",
+      "sum": 170,
+      "k": 2,
+      "point": [
+        25,
+        29
+      ]
+    },
+    {
+      "day": 233,
+      "title": "FILHO AMADO",
+      "reading": "Marcos 1:9-11",
+      "wisdom": "A missão começa da voz 'amado', não do vício de provar valor.",
+      "sum": 84,
+      "k": 17,
+      "point": [
+        18,
+        32
+      ]
+    },
+    {
+      "day": 234,
+      "title": "PEDRAS, TEMPLO E REINOS",
+      "reading": "Mateus 4:1-11",
+      "wisdom": "As tentações oferecem atalho para pão, aplauso e controle.",
+      "sum": 229,
+      "k": 3,
+      "point": [
+        18,
+        5
+      ]
+    },
+    {
+      "day": 235,
+      "title": "JESUS CHAMA TRABALHADORES",
+      "reading": "Marcos 1:14-20",
+      "wisdom": "Chamado encontra gente no trabalho antes de encontrar currículo perfeito.",
+      "sum": 224,
+      "k": 19,
+      "point": [
+        4,
+        36
+      ]
+    },
+    {
+      "day": 236,
+      "title": "ÁGUA VIRA VINHO",
+      "reading": "João 2:1-11",
+      "wisdom": "O primeiro sinal de João preserva a alegria de um casal sem humilhá-lo.",
+      "sum": 148,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 237,
+      "title": "MESA DE PECADORES",
+      "reading": "Marcos 2:13-17",
+      "wisdom": "Santidade de Jesus é contagiosa; por isso ele não teme a mesa.",
+      "sum": 133,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 238,
+      "title": "O SÁBADO PARA O HUMANO",
+      "reading": "Marcos 2:23-28; 3:1-6",
+      "wisdom": "Mandamento perde o coração quando impede o bem que deveria guardar.",
+      "sum": 180,
+      "k": 18,
+      "point": [
+        25,
+        8
+      ]
+    },
+    {
+      "day": 239,
+      "title": "BEM-AVENTURADOS",
+      "reading": "Mateus 5:1-12",
+      "wisdom": "Jesus não chama a dor de boa; chama os feridos de não abandonados.",
+      "sum": 160,
+      "k": 19,
+      "point": [
+        4,
+        36
+      ]
+    },
+    {
+      "day": 240,
+      "title": "SAL E LUZ",
+      "reading": "Mateus 5:13-16",
+      "wisdom": "Influência do Reino preserva e ilumina sem transformar-se em espetáculo.",
+      "sum": 96,
+      "k": 16,
+      "point": [
+        3,
+        6
+      ]
+    },
+    {
+      "day": 241,
+      "title": "IRA E RECONCILIAÇÃO",
+      "reading": "Mateus 5:21-26",
+      "wisdom": "Não matar é o piso; aprender a não desumanizar é o caminho.",
+      "sum": 141,
+      "k": 2,
+      "point": [
+        25,
+        29
+      ]
+    },
+    {
+      "day": 242,
+      "title": "DESEJO E INTEGRIDADE",
+      "reading": "Mateus 5:27-30",
+      "wisdom": "Desejo precisa de governo sem vergonha corporal nem exploração.",
+      "sum": 159,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 243,
+      "title": "VERDADE SEM TEATRO",
+      "reading": "Mateus 5:33-37",
+      "wisdom": "Quando sua palavra vale, ela não precisa de fogos de artifício.",
+      "sum": 175,
+      "k": 18,
+      "point": [
+        25,
+        8
+      ]
+    },
+    {
+      "day": 244,
+      "title": "AMAR INIMIGOS",
+      "reading": "Mateus 5:38-48",
+      "wisdom": "Amar inimigo não exige negar perigo; exige não copiar sua crueldade.",
+      "sum": 128,
+      "k": 12,
+      "point": [
+        15,
+        2
+      ]
+    },
+    {
+      "day": 245,
+      "title": "CASA SOBRE A ROCHA",
+      "reading": "Mateus 7:15-27",
+      "wisdom": "A casa não cai por falta de sermão, mas por falta de prática.",
+      "sum": 129,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 246,
+      "title": "O SEMEADOR",
+      "reading": "Marcos 4:1-20",
+      "wisdom": "Não culpe a semente por um solo que nunca teve espaço.",
+      "sum": 95,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 247,
+      "title": "O BOM SAMARITANO",
+      "reading": "Lucas 10:25-37",
+      "wisdom": "A pergunta não é 'quem merece?', mas 'de quem me tornarei próximo?'.",
+      "sum": 156,
+      "k": 3,
+      "point": [
+        18,
+        5
+      ]
+    },
+    {
+      "day": 248,
+      "title": "O FILHO QUE VOLTA",
+      "reading": "Lucas 15:11-32",
+      "wisdom": "Podemos estar em casa e ainda viver como empregados do amor.",
+      "sum": 178,
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "day": 249,
+      "title": "O RICO E LÁZARO",
+      "reading": "Lucas 16:19-31",
+      "wisdom": "O portão fechado diariamente torna-se abismo.",
+      "sum": 138,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 250,
+      "title": "O FARISEU E O PUBLICANO",
+      "reading": "Lucas 18:9-14",
+      "wisdom": "Usar Deus como espelho para admirar-se é outra forma de idolatria.",
+      "sum": 207,
+      "k": 17,
+      "point": [
+        18,
+        32
+      ]
+    },
+    {
+      "day": 251,
+      "title": "TALENTOS E RESPONSABILIDADE",
+      "reading": "Mateus 25:14-30",
+      "wisdom": "Medo de fracassar pode enterrar exatamente o que deveria servir.",
+      "sum": 264,
+      "k": 15,
+      "point": [
+        5,
+        8
+      ]
+    },
+    {
+      "day": 252,
+      "title": "O JUÍZO DAS NAÇÕES",
+      "reading": "Mateus 25:31-46",
+      "wisdom": "A espiritualidade encontra Cristo onde a sociedade prefere não olhar.",
+      "sum": 177,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 253,
+      "title": "TOCAR O INTOCÁVEL",
+      "reading": "Marcos 1:40-45",
+      "wisdom": "Poder santo não tem medo de devolver presença ao excluído.",
+      "sum": 173,
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "day": 254,
+      "title": "TELHADO ABERTO",
+      "reading": "Marcos 2:1-12",
+      "wisdom": "Há amigos que não dão conselho; carregam peso e abrem teto.",
+      "sum": 126,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 255,
+      "title": "TEMPESTADE",
+      "reading": "Marcos 4:35-41",
+      "wisdom": "A presença no barco não impede ondas; impede que elas tenham a palavra final.",
+      "sum": 108,
+      "k": 3,
+      "point": [
+        18,
+        5
+      ]
+    },
+    {
+      "day": 256,
+      "title": "LEGIÃO E RETORNO",
+      "reading": "Marcos 5:1-20",
+      "wisdom": "Cura também é recuperar nome, lugar e narrativa.",
+      "sum": 159,
+      "k": 15,
+      "point": [
+        5,
+        8
+      ]
+    },
+    {
+      "day": 257,
+      "title": "A MULHER NO MEIO DA MULTIDÃO",
+      "reading": "Marcos 5:25-34",
+      "wisdom": "O Reino transforma um toque anônimo em encontro com dignidade.",
+      "sum": 249,
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "day": 258,
+      "title": "PÃES REPARTIDOS",
+      "reading": "Marcos 6:34-44",
+      "wisdom": "O milagre começa quando a pergunta muda de 'não dá' para 'quanto temos?'.",
+      "sum": 166,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 259,
+      "title": "BARTIMEU GRITA",
+      "reading": "Marcos 10:46-52",
+      "wisdom": "Não presuma a necessidade de quem pede ajuda; pergunte.",
+      "sum": 144,
+      "k": 3,
+      "point": [
+        18,
+        5
+      ]
+    },
+    {
+      "day": 260,
+      "title": "QUEM VOCÊS DIZEM?",
+      "reading": "Marcos 8:27-35",
+      "wisdom": "É possível acertar o título de Jesus e rejeitar seu caminho.",
+      "sum": 177,
+      "k": 17,
+      "point": [
+        18,
+        32
+      ]
+    },
+    {
+      "day": 261,
+      "title": "O MAIOR É CRIANÇA",
+      "reading": "Marcos 9:33-37",
+      "wisdom": "No Reino, currículo de grandeza inclui quem você acolhe sem vantagem.",
+      "sum": 125,
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "day": 262,
+      "title": "O JOVEM RICO",
+      "reading": "Marcos 10:17-27",
+      "wisdom": "Jesus ama o homem demais para confirmar a prisão que ele chama de patrimônio.",
+      "sum": 125,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 263,
+      "title": "TIAGO E JOÃO QUEREM TRONOS",
+      "reading": "Marcos 10:35-45",
+      "wisdom": "O Reino não troca os ocupantes do trono; muda o significado de poder.",
+      "sum": 278,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 264,
+      "title": "ZAQUEU DESCE",
+      "reading": "Lucas 19:1-10",
+      "wisdom": "Quando a salvação chega à casa, a planilha financeira também se converte.",
+      "sum": 127,
+      "k": 11,
+      "point": [
+        30,
+        4
+      ]
+    },
+    {
+      "day": 265,
+      "title": "LAVAR PÉS",
+      "reading": "João 13:1-17",
+      "wisdom": "Quem conhece a própria identidade não precisa fugir do avental.",
+      "sum": 94,
+      "k": 19,
+      "point": [
+        4,
+        36
+      ]
+    },
+    {
+      "day": 266,
+      "title": "TOMAR A CRUZ",
+      "reading": "Lucas 9:23-27; 14:25-33",
+      "wisdom": "A cruz não é todo sofrimento aleatório; é custo de fidelidade e amor.",
+      "sum": 136,
+      "k": 2,
+      "point": [
+        25,
+        29
+      ]
+    },
+    {
+      "day": 267,
+      "title": "NASCER DO ALTO",
+      "reading": "João 3:1-17",
+      "wisdom": "Informação sobre Deus pode precisar nascer de novo como vida.",
+      "sum": 127,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 268,
+      "title": "ÁGUA VIVA",
+      "reading": "João 4:4-26,39-42",
+      "wisdom": "Jesus conhece a história sem reduzir a pessoa ao passado.",
+      "sum": 84,
+      "k": 12,
+      "point": [
+        15,
+        2
+      ]
+    },
+    {
+      "day": 269,
+      "title": "PÃO DA VIDA",
+      "reading": "João 6:26-40",
+      "wisdom": "Fé não é transformar Cristo em fornecedor de desejos.",
+      "sum": 73,
+      "k": 2,
+      "point": [
+        25,
+        29
+      ]
+    },
+    {
+      "day": 270,
+      "title": "LUZ DO MUNDO",
+      "reading": "João 8:12; 9:1-7,35-41",
+      "wisdom": "A luz cura e também revela a arrogância de quem dispensa exame.",
+      "sum": 145,
+      "k": 15,
+      "point": [
+        5,
+        8
+      ]
+    },
+    {
+      "day": 271,
+      "title": "BOM PASTOR",
+      "reading": "João 10:1-18",
+      "wisdom": "Liderança cristã reconhece pelo cuidado, não pelo controle do curral.",
+      "sum": 119,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 272,
+      "title": "RESSURREIÇÃO E VIDA",
+      "reading": "João 11:17-44",
+      "wisdom": "O Cristo que ressuscita também para diante do túmulo e chora.",
+      "sum": 192,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 273,
+      "title": "CAMINHO, VERDADE E VIDA",
+      "reading": "João 14:1-11; 15:1-12",
+      "wisdom": "A verdade cristã tem rosto, caminho e forma de amar.",
+      "sum": 163,
+      "k": 16,
+      "point": [
+        3,
+        6
+      ]
+    },
+    {
+      "day": 274,
+      "title": "MESA E TRADIÇÃO",
+      "reading": "Marcos 7:1-23",
+      "wisdom": "Tradição é boa serva e péssima divindade.",
+      "sum": 114,
+      "k": 8,
+      "point": [
+        15,
+        35
+      ]
+    },
+    {
+      "day": 275,
+      "title": "A MULHER ACUSADA",
+      "reading": "João 8:1-11",
+      "wisdom": "Graça devolve futuro sem transformar humilhação em método.",
+      "sum": 128,
+      "k": 3,
+      "point": [
+        18,
+        5
+      ]
+    },
+    {
+      "day": 276,
+      "title": "AI DE VOCÊS",
+      "reading": "Mateus 23:1-12,23-28",
+      "wisdom": "A máscara mais perigosa é a que convence o próprio usuário.",
+      "sum": 83,
+      "k": 19,
+      "point": [
+        4,
+        36
+      ]
+    },
+    {
+      "day": 277,
+      "title": "IMPOSTO E IMAGEM",
+      "reading": "Marcos 12:13-17",
+      "wisdom": "A moeda traz a imagem de César; o ser humano carrega imagem maior.",
+      "sum": 160,
+      "k": 17,
+      "point": [
+        18,
+        32
+      ]
+    },
+    {
+      "day": 278,
+      "title": "VIÚVA OBSERVADA",
+      "reading": "Marcos 12:38-44",
+      "wisdom": "Admirar sacrifício não nos autoriza a manter o sistema que o exige.",
+      "sum": 162,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 279,
+      "title": "TEMPLO DERRUBADO",
+      "reading": "Marcos 13:1-13",
+      "wisdom": "Não confunda grandeza arquitetônica com eternidade moral.",
+      "sum": 169,
+      "k": 8,
+      "point": [
+        15,
+        35
+      ]
+    },
+    {
+      "day": 280,
+      "title": "PERFUME E JULGAMENTO",
+      "reading": "Marcos 14:3-9",
+      "wisdom": "Nem todo desperdício aparente é irresponsável; alguns gestos dizem o que números não conseguem.",
+      "sum": 207,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 281,
+      "title": "A ÚLTIMA MESA",
+      "reading": "Lucas 22:14-23",
+      "wisdom": "A mesa de Jesus não espera uma comunidade sem rachaduras.",
+      "sum": 115,
+      "k": 16,
+      "point": [
+        3,
+        6
+      ]
+    },
+    {
+      "day": 282,
+      "title": "GETSÊMANI",
+      "reading": "Marcos 14:32-42",
+      "wisdom": "Coragem não é ausência de pavor; é dizer a verdade e ainda escolher.",
+      "sum": 93,
+      "k": 15,
+      "point": [
+        5,
+        8
+      ]
+    },
+    {
+      "day": 283,
+      "title": "PRISÃO E ESPADA",
+      "reading": "João 18:1-11; Lucas 22:49-53",
+      "wisdom": "Defender Jesus por métodos contrários a Jesus é perder o caminho.",
+      "sum": 129,
+      "k": 12,
+      "point": [
+        15,
+        2
+      ]
+    },
+    {
+      "day": 284,
+      "title": "JULGAMENTO MANIPULADO",
+      "reading": "Marcos 14:53-65; 15:1-15",
+      "wisdom": "Legalidade sem verdade pode ser apenas violência com ata.",
+      "sum": 224,
+      "k": 8,
+      "point": [
+        15,
+        35
+      ]
+    },
+    {
+      "day": 285,
+      "title": "PEDRO CHORA",
+      "reading": "Lucas 22:54-62",
+      "wisdom": "Uma queda grave não precisa ser a última identidade.",
+      "sum": 103,
+      "k": 8,
+      "point": [
+        15,
+        35
+      ]
+    },
+    {
+      "day": 286,
+      "title": "NA CRUZ",
+      "reading": "Lucas 23:32-49; João 19:25-30",
+      "wisdom": "A cruz expõe o que a violência faz e o que o amor se recusa a fazer.",
+      "sum": 83,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 287,
+      "title": "O SÁBADO DO TÚMULO",
+      "reading": "Mateus 27:57-66; João 19:38-42",
+      "wisdom": "Nem toda fidelidade acontece no palco; algumas carregam um corpo quando a esperança parece morta.",
+      "sum": 178,
+      "k": 5,
+      "point": [
+        5,
+        29
+      ]
+    },
+    {
+      "day": 288,
+      "title": "MULHERES NO TÚMULO",
+      "reading": "Marcos 16:1-8; Mateus 28:1-10",
+      "wisdom": "O novo mundo começa confiado a vozes que a cultura subestimava.",
+      "sum": 232,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 289,
+      "title": "MARIA OUVE O NOME",
+      "reading": "João 20:11-18",
+      "wisdom": "Ressurreição não transforma amor em posse; transforma saudade em missão.",
+      "sum": 167,
+      "k": 16,
+      "point": [
+        3,
+        6
+      ]
+    },
+    {
+      "day": 290,
+      "title": "TOMÉ TOCA A DÚVIDA",
+      "reading": "João 20:24-29",
+      "wisdom": "Jesus não expulsa o cético ferido; encontra-o uma semana depois.",
+      "sum": 154,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 291,
+      "title": "ESTRADA DE EMAÚS",
+      "reading": "Lucas 24:13-35",
+      "wisdom": "Às vezes o sentido volta enquanto caminhamos e repartimos pão.",
+      "sum": 136,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 292,
+      "title": "PEDRO RESTAURADO",
+      "reading": "João 21:15-19",
+      "wisdom": "Restauração não finge que a queda não aconteceu; cria resposta nova onde ela doeu.",
+      "sum": 180,
+      "k": 12,
+      "point": [
+        15,
+        2
+      ]
+    },
+    {
+      "day": 293,
+      "title": "A GRANDE COMISSÃO",
+      "reading": "Mateus 28:16-20",
+      "wisdom": "Missão cristã forma aprendizes; não coleciona números.",
+      "sum": 144,
+      "k": 17,
+      "point": [
+        18,
+        32
+      ]
+    },
+    {
+      "day": 294,
+      "title": "CORPO RESSUSCITADO",
+      "reading": "1 Coríntios 15:12-28,50-58",
+      "wisdom": "Porque o futuro de Deus é corporal, o cuidado presente nunca é inútil.",
+      "sum": 220,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 295,
+      "title": "PODER PARA TESTEMUNHAR",
+      "reading": "Atos 1:6-11",
+      "wisdom": "O Espírito não é combustível para dominar; é força para servir e testemunhar.",
+      "sum": 238,
+      "k": 13,
+      "point": [
+        7,
+        29
+      ]
+    },
+    {
+      "day": 296,
+      "title": "PENTECOSTES",
+      "reading": "Atos 2:1-21",
+      "wisdom": "Babel impôs uniformidade; Pentecostes cria unidade sem apagar sotaques.",
+      "sum": 141,
+      "k": 17,
+      "point": [
+        18,
+        32
+      ]
+    },
+    {
+      "day": 297,
+      "title": "UMA COMUNIDADE REPARTIDA",
+      "reading": "Atos 2:42-47; 4:32-35",
+      "wisdom": "Reavivamento que não toca agenda, mesa e bolso fica incompleto.",
+      "sum": 216,
+      "k": 13,
+      "point": [
+        7,
+        29
+      ]
+    },
+    {
+      "day": 298,
+      "title": "ANANIAS E SAFIRA",
+      "reading": "Atos 5:1-11",
+      "wisdom": "O problema não era guardar parte; era vender reputação espiritual falsa.",
+      "sum": 118,
+      "k": 16,
+      "point": [
+        3,
+        6
+      ]
+    },
+    {
+      "day": 299,
+      "title": "ESTÊVÃO E O CUSTO",
+      "reading": "Atos 6:8-15; 7:54-60",
+      "wisdom": "O mártir testemunha pela fidelidade; não procura a morte.",
+      "sum": 185,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 300,
+      "title": "FILIPE E O EUNUCO",
+      "reading": "Atos 8:26-39",
+      "wisdom": "Evangelização começa com 'entende?' e continua com escuta.",
+      "sum": 156,
+      "k": 16,
+      "point": [
+        3,
+        6
+      ]
+    },
+    {
+      "day": 301,
+      "title": "CORNÉLIO E A FRONTEIRA",
+      "reading": "Atos 10:1-35,44-48",
+      "wisdom": "Às vezes o convertido principal é quem chegou para converter o outro.",
+      "sum": 203,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 302,
+      "title": "O DIAGNÓSTICO UNIVERSAL",
+      "reading": "Romanos 1:16-25; 2:1-11; 3:9-24",
+      "wisdom": "O evangelho fecha a boca arrogante antes de abrir a porta da graça.",
+      "sum": 252,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 303,
+      "title": "PAZ PELA GRAÇA",
+      "reading": "Romanos 5:1-11",
+      "wisdom": "Graça começa quando ainda não temos currículo para apresentar.",
+      "sum": 107,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 304,
+      "title": "MORRER PARA O DOMÍNIO",
+      "reading": "Romanos 6:1-14",
+      "wisdom": "Ser perdoado não é receber salvo-conduto para voltar à cela.",
+      "sum": 217,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 305,
+      "title": "A GUERRA INTERIOR",
+      "reading": "Romanos 7:14-25; 8:1-4",
+      "wisdom": "Nomear a guerra interior impede que a vergonha finja ser solução.",
+      "sum": 179,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 306,
+      "title": "MENTE RENOVADA",
+      "reading": "Romanos 12:1-8",
+      "wisdom": "Mudança espiritual inclui testar pensamentos e aceitar interdependência.",
+      "sum": 137,
+      "k": 3,
+      "point": [
+        18,
+        5
+      ]
+    },
+    {
+      "day": 307,
+      "title": "VENCER O MAL COM O BEM",
+      "reading": "Romanos 12:9-21",
+      "wisdom": "Responder com bem não chama o mal de bem; recusa tornar-se seu espelho.",
+      "sum": 174,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 308,
+      "title": "CONSCIÊNCIAS DIFERENTES",
+      "reading": "Romanos 14:1-13; 15:1-7",
+      "wisdom": "Unidade não exige que todas as consciências tenham o mesmo cardápio.",
+      "sum": 219,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 309,
+      "title": "A LOUCURA DA CRUZ",
+      "reading": "1 Coríntios 1:18-31",
+      "wisdom": "A cruz interrompe a competição por superioridade espiritual.",
+      "sum": 165,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 310,
+      "title": "TEMPLO E LIMITES",
+      "reading": "1 Coríntios 6:12-20",
+      "wisdom": "Desejo não é inimigo, mas também não é soberano.",
+      "sum": 173,
+      "k": 3,
+      "point": [
+        18,
+        5
+      ]
+    },
+    {
+      "day": 311,
+      "title": "CASAL, DESEJO E MUTUALIDADE",
+      "reading": "1 Coríntios 7:1-9,32-35",
+      "wisdom": "Ninguém deve usar texto sobre dever conjugal para anular consentimento.",
+      "sum": 210,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 312,
+      "title": "ÍDOLOS E CONSCIÊNCIA",
+      "reading": "1 Coríntios 8:1-13; 10:23-33",
+      "wisdom": "Liberdade cristã pergunta não só 'posso?', mas 'isso constrói?'.",
+      "sum": 174,
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "day": 313,
+      "title": "UM SÓ CORPO",
+      "reading": "1 Coríntios 12:4-27",
+      "wisdom": "Comunidade saudável não tolera talentos inúteis nem pessoas descartáveis.",
+      "sum": 135,
+      "k": 8,
+      "point": [
+        15,
+        35
+      ]
+    },
+    {
+      "day": 314,
+      "title": "O CAMINHO EXCELENTE",
+      "reading": "1 Coríntios 13:1-13",
+      "wisdom": "Amor não é apenas pico hormonal; é modo de agir quando o pico passa.",
+      "sum": 171,
+      "k": 5,
+      "point": [
+        5,
+        29
+      ]
+    },
+    {
+      "day": 315,
+      "title": "RESSURREIÇÃO E ESTABILIDADE",
+      "reading": "1 Coríntios 15:35-58",
+      "wisdom": "Esperança futura produz firmeza presente, não passividade.",
+      "sum": 247,
+      "k": 2,
+      "point": [
+        25,
+        29
+      ]
+    },
+    {
+      "day": 316,
+      "title": "OUTRO EVANGELHO",
+      "reading": "Gálatas 1:6-12",
+      "wisdom": "Mensagem que depende de bajular perdeu autoridade para libertar.",
+      "sum": 178,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 317,
+      "title": "JUSTIFICADOS, NÃO PERFORMÁTICOS",
+      "reading": "Gálatas 2:15-21",
+      "wisdom": "Não transforme a fé em currículo para voltar a competir.",
+      "sum": 324,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 318,
+      "title": "NEM ESCRAVO NEM SUPERIOR",
+      "reading": "Gálatas 3:23-29",
+      "wisdom": "Em Cristo, diferença deixa de ser hierarquia de dignidade.",
+      "sum": 268,
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "day": 319,
+      "title": "FRUTO DO ESPÍRITO",
+      "reading": "Gálatas 5:13-26",
+      "wisdom": "O fruto não é volume de discurso; é o sabor deixado nas relações.",
+      "sum": 210,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 320,
+      "title": "GRAÇA QUE CRIA OBRA",
+      "reading": "Efésios 2:1-10",
+      "wisdom": "Não somos salvos pelas obras, mas somos salvos para uma vida que opere bem.",
+      "sum": 140,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 321,
+      "title": "O MURO DERRUBADO",
+      "reading": "Efésios 2:11-22",
+      "wisdom": "A paz de Cristo não pinta o muro; derruba a parede de hostilidade.",
+      "sum": 170,
+      "k": 11,
+      "point": [
+        30,
+        4
+      ]
+    },
+    {
+      "day": 322,
+      "title": "ARMADURA SEM FANTASIA",
+      "reading": "Efésios 6:10-20",
+      "wisdom": "A armadura de Deus não autoriza paranoia; equipa para verdade, justiça e paz.",
+      "sum": 185,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 323,
+      "title": "ALEGRIA EM PRISÃO",
+      "reading": "Filipenses 1:12-26",
+      "wisdom": "Alegria cristã não nega grades; encontra propósito sem adorá-las.",
+      "sum": 149,
+      "k": 12,
+      "point": [
+        15,
+        2
+      ]
+    },
+    {
+      "day": 324,
+      "title": "ESVAZIAMENTO",
+      "reading": "Filipenses 2:1-11",
+      "wisdom": "Poder cristão se reconhece pela capacidade de descer para servir.",
+      "sum": 150,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 325,
+      "title": "TRABALHAR A SALVAÇÃO",
+      "reading": "Filipenses 2:12-18",
+      "wisdom": "Dependência de Deus não elimina treino; dá sentido ao treino.",
+      "sum": 156,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 326,
+      "title": "PERDAS E ALVO",
+      "reading": "Filipenses 3:4-14",
+      "wisdom": "Maturidade sabe usar currículo sem ser usada por ele.",
+      "sum": 118,
+      "k": 4,
+      "point": [
+        3,
+        31
+      ]
+    },
+    {
+      "day": 327,
+      "title": "ANSIEDADE E PENSAMENTO",
+      "reading": "Filipenses 4:4-9",
+      "wisdom": "Paz bíblica não é ordem para calar ansiedade; é prática de apresentar, filtrar e agir.",
+      "sum": 189,
+      "k": 16,
+      "point": [
+        3,
+        6
+      ]
+    },
+    {
+      "day": 328,
+      "title": "CRISTO ACIMA DOS PODERES",
+      "reading": "Colossenses 1:15-23",
+      "wisdom": "Se Cristo é o centro, nenhum poder político, econômico ou espiritual merece absolutismo.",
+      "sum": 231,
+      "k": 19,
+      "point": [
+        4,
+        36
+      ]
+    },
+    {
+      "day": 329,
+      "title": "TRABALHO COM INTEGRIDADE",
+      "reading": "Colossenses 3:12-25",
+      "wisdom": "Trabalhar para Deus aumenta integridade e também denuncia abuso do trabalhador.",
+      "sum": 204,
+      "k": 13,
+      "point": [
+        7,
+        29
+      ]
+    },
+    {
+      "day": 330,
+      "title": "FÉ QUE TRABALHA",
+      "reading": "1 Tessalonicenses 1:2-10",
+      "wisdom": "Esperança verdadeira tem mãos ocupadas em amor.",
+      "sum": 117,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 331,
+      "title": "LIDERANÇA TERNA",
+      "reading": "1 Tessalonicenses 2:1-12",
+      "wisdom": "Liderança madura sabe nutrir e desafiar sem explorar.",
+      "sum": 125,
+      "k": 16,
+      "point": [
+        3,
+        6
+      ]
+    },
+    {
+      "day": 332,
+      "title": "SANTIDADE E DESEJO",
+      "reading": "1 Tessalonicenses 4:1-8",
+      "wisdom": "Paixão é humana; usar alguém como instrumento é incompatível com amor.",
+      "sum": 140,
+      "k": 12,
+      "point": [
+        15,
+        2
+      ]
+    },
+    {
+      "day": 333,
+      "title": "ESPERANÇA NO LUTO",
+      "reading": "1 Tessalonicenses 4:13-18",
+      "wisdom": "Esperança não proíbe lágrimas; impede que elas sejam o único horizonte.",
+      "sum": 179,
+      "k": 12,
+      "point": [
+        15,
+        2
+      ]
+    },
+    {
+      "day": 334,
+      "title": "TEMPOS E SOBRIEDADE",
+      "reading": "1 Tessalonicenses 5:1-11",
+      "wisdom": "Quem espera Cristo não vive calculando manchetes, mas fortalecendo pessoas.",
+      "sum": 175,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 335,
+      "title": "QUEM NÃO QUER TRABALHAR",
+      "reading": "2 Tessalonicenses 3:6-13",
+      "wisdom": "Regra justa distingue quem não pode de quem se recusa.",
+      "sum": 228,
+      "k": 3,
+      "point": [
+        18,
+        5
+      ]
+    },
+    {
+      "day": 336,
+      "title": "EXAMINEM TUDO",
+      "reading": "1 Tessalonicenses 5:12-24",
+      "wisdom": "Maturidade não é acreditar em tudo nem ridicularizar tudo.",
+      "sum": 144,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 337,
+      "title": "SÃ DOUTRINA E AMOR",
+      "reading": "1 Timóteo 1:3-7",
+      "wisdom": "Doutrina que vence discussões e perde amor fracassou em sua finalidade.",
+      "sum": 174,
+      "k": 11,
+      "point": [
+        30,
+        4
+      ]
+    },
+    {
+      "day": 338,
+      "title": "CRITÉRIOS DE LIDERANÇA",
+      "reading": "1 Timóteo 3:1-13",
+      "wisdom": "Dom impressiona rápido; caráter sustenta o peso depois.",
+      "sum": 192,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 339,
+      "title": "DINHEIRO E CONTENTAMENTO",
+      "reading": "1 Timóteo 6:6-19",
+      "wisdom": "O problema não é possuir recurso; é ser possuído pela promessa de segurança dele.",
+      "sum": 246,
+      "k": 5,
+      "point": [
+        5,
+        29
+      ]
+    },
+    {
+      "day": 340,
+      "title": "REAVIVE O DOM",
+      "reading": "2 Timóteo 1:3-14",
+      "wisdom": "Dom pode esfriar sem morrer; precisa de prática, comunidade e propósito.",
+      "sum": 129,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 341,
+      "title": "MANEJAR BEM A PALAVRA",
+      "reading": "2 Timóteo 2:14-26",
+      "wisdom": "Firmeza sem mansidão vira violência; mansidão sem verdade vira omissão.",
+      "sum": 154,
+      "k": 15,
+      "point": [
+        5,
+        8
+      ]
+    },
+    {
+      "day": 342,
+      "title": "TEMPO DE COCEIRA NOS OUVIDOS",
+      "reading": "2 Timóteo 4:1-8",
+      "wisdom": "Não meça verdade apenas pelo prazer imediato de ouvi-la.",
+      "sum": 285,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 343,
+      "title": "GRAÇA QUE EDUCA",
+      "reading": "Tito 2:1-14; 3:3-8",
+      "wisdom": "A graça não apenas abre a porta; ensina a caminhar pela casa.",
+      "sum": 107,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 344,
+      "title": "DEUS FALOU NO FILHO",
+      "reading": "Hebreus 1:1-4; 4:12-16",
+      "wisdom": "A Palavra não é bisturi para cortar os outros antes de examinar você.",
+      "sum": 183,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 345,
+      "title": "DESCANSO E CONFIANÇA",
+      "reading": "Hebreus 4:1-11",
+      "wisdom": "Há esforço para produzir e esforço para parar de tentar ser Deus.",
+      "sum": 151,
+      "k": 16,
+      "point": [
+        3,
+        6
+      ]
+    },
+    {
+      "day": 346,
+      "title": "GALERIA DA FÉ",
+      "reading": "Hebreus 11:1-16,32-40",
+      "wisdom": "Fé não é fórmula de vitória imediata; é fidelidade em resultados diferentes.",
+      "sum": 69,
+      "k": 15,
+      "point": [
+        5,
+        8
+      ]
+    },
+    {
+      "day": 347,
+      "title": "CORRIDA COM TESTEMUNHAS",
+      "reading": "Hebreus 12:1-15",
+      "wisdom": "Perseverança não carrega todas as malas; escolhe o que precisa ficar.",
+      "sum": 244,
+      "k": 11,
+      "point": [
+        30,
+        4
+      ]
+    },
+    {
+      "day": 348,
+      "title": "OUVIR E FAZER",
+      "reading": "Tiago 1:19-27",
+      "wisdom": "A distância entre ouvir e fazer é onde a autoilusão constrói casa.",
+      "sum": 146,
+      "k": 14,
+      "point": [
+        35,
+        18
+      ]
+    },
+    {
+      "day": 349,
+      "title": "FÉ E OBRAS",
+      "reading": "Tiago 2:1-18",
+      "wisdom": "Fé invisível torna-se verificável no modo de tratar quem não tem status.",
+      "sum": 71,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 350,
+      "title": "LÍNGUA E SABEDORIA",
+      "reading": "Tiago 3:1-18",
+      "wisdom": "Se sua sabedoria sempre deixa incêndio, talvez seja apenas vaidade afiada.",
+      "sum": 143,
+      "k": 13,
+      "point": [
+        7,
+        29
+      ]
+    },
+    {
+      "day": 351,
+      "title": "PEDRAS VIVAS",
+      "reading": "1 Pedro 1:13-21; 2:4-10",
+      "wisdom": "Pedra isolada é apenas pedra; ligada, torna-se morada.",
+      "sum": 136,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 352,
+      "title": "ESTRANGEIROS EXEMPLARES",
+      "reading": "1 Pedro 2:11-17; 3:8-17",
+      "wisdom": "Ser perseguido por fazer o bem não é o mesmo que sofrer consequência do próprio erro.",
+      "sum": 268,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 353,
+      "title": "LÍDERES SEM DOMÍNIO",
+      "reading": "1 Pedro 5:1-11",
+      "wisdom": "A mão que guia não precisa apertar o pescoço.",
+      "sum": 188,
+      "k": 1,
+      "point": [
+        4,
+        1
+      ]
+    },
+    {
+      "day": 354,
+      "title": "ANDAR NA LUZ",
+      "reading": "1 João 1:5-10; 2:1-6",
+      "wisdom": "Luz não significa perfeição performática; significa parar de esconder.",
+      "sum": 112,
+      "k": 6,
+      "point": [
+        35,
+        19
+      ]
+    },
+    {
+      "day": 355,
+      "title": "AMOR EM AÇÃO",
+      "reading": "1 João 3:16-24; 4:7-21",
+      "wisdom": "Amor bíblico não vive apenas no peito; abre mão, porta e carteira.",
+      "sum": 85,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 356,
+      "title": "VERDADE E AMOR",
+      "reading": "2 João 4-11; 3 João 5-12",
+      "wisdom": "Ser acolhedor não exige entregar plataforma a quem destrói.",
+      "sum": 111,
+      "k": 7,
+      "point": [
+        7,
+        8
+      ]
+    },
+    {
+      "day": 357,
+      "title": "CONTENDER SEM CRUELDADE",
+      "reading": "Judas 3-23",
+      "wisdom": "Defender a fé não autoriza perder o caráter que se pretende defender.",
+      "sum": 208,
+      "k": 5,
+      "point": [
+        5,
+        29
+      ]
+    },
+    {
+      "day": 358,
+      "title": "REVELAÇÃO E BÊNÇÃO",
+      "reading": "Apocalipse 1:1-8,9-20",
+      "wisdom": "A visão do fim começa com Cristo no meio da comunidade ferida.",
+      "sum": 127,
+      "k": 5,
+      "point": [
+        5,
+        29
+      ]
+    },
+    {
+      "day": 359,
+      "title": "CARTAS ÀS IGREJAS",
+      "reading": "Apocalipse 2:1-7; 3:14-22",
+      "wisdom": "Uma igreja pode estar correta, rica e ainda precisar abrir a porta.",
+      "sum": 151,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 360,
+      "title": "O CORDEIRO VENCE",
+      "reading": "Apocalipse 5:1-14",
+      "wisdom": "O centro do trono não é uma fera mais forte, mas o Cordeiro que se entregou.",
+      "sum": 151,
+      "k": 11,
+      "point": [
+        30,
+        4
+      ]
+    },
+    {
+      "day": 361,
+      "title": "BABILÔNIA SEDUTORA",
+      "reading": "Apocalipse 17:1-6; 18:1-13",
+      "wisdom": "Babilônia cai também porque transformou vidas em mercadoria.",
+      "sum": 168,
+      "k": 9,
+      "point": [
+        30,
+        33
+      ]
+    },
+    {
+      "day": 362,
+      "title": "TESTEMUNHAS RESISTENTES",
+      "reading": "Apocalipse 12:7-12; 14:12",
+      "wisdom": "Resistência cristã vence sem copiar a lógica do dragão.",
+      "sum": 298,
+      "k": 20,
+      "point": null
+    },
+    {
+      "day": 363,
+      "title": "JUÍZO E ESPERANÇA",
+      "reading": "Apocalipse 20:11-15",
+      "wisdom": "Juízo significa que vítimas não serão eternamente esquecidas.",
+      "sum": 168,
+      "k": 11,
+      "point": [
+        30,
+        4
+      ]
+    },
+    {
+      "day": 364,
+      "title": "TUDO NOVO",
+      "reading": "Apocalipse 21:1-7; 22:1-5",
+      "wisdom": "O final bíblico não é fuga da terra, mas Deus fazendo morada e cura.",
+      "sum": 126,
+      "k": 10,
+      "point": [
+        24,
+        0
+      ]
+    },
+    {
+      "day": 365,
+      "title": "O MANIFESTO DA VIDA",
+      "reading": "",
+      "wisdom": "",
+      "sum": 158,
+      "k": 3,
+      "point": [
+        18,
+        5
+      ]
+    }
+  ],
+  "stats": {
+    "mu_x": 18.46153846153846,
+    "mu_y": 17.076923076923077,
+    "sd_x": 12.010350565660405,
+    "sd_y": 11.987995310233709,
+    "mu_k": 9.11111111111111,
+    "sd_k": 5.2269482161507,
+    "ks": [
+      10,
+      12,
+      9,
+      8,
+      6,
+      12,
+      13,
+      2,
+      2,
+      5,
+      12,
+      20,
+      4,
+      5,
+      5,
+      6,
+      13,
+      20
+    ],
+    "integral_-1_to_4": 18.59047532309613,
+    "arc_-1_to_4": 10.289777340162901,
+    "dydx_at_4": 2.8867513459481287,
+    "y_real_at_4": 8.660254037844387,
+    "sum_of_key_gematria": 1273,
+    "sum_of_k": 164
+  },
+  "worked": {
+    "G": [
+      4,
+      1
+    ],
+    "lambda_double": 25,
+    "twoG": [
+      25,
+      29
+    ],
+    "threeG": [
+      18,
+      5
+    ]
+  }
+}

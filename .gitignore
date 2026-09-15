@@ -1,0 +1,14 @@
+node_modules/
+.project_id
+.github_repo
+.env
+.env.*
+.vercel/
+screenshots/
+artifacts/
+attachments/
+.grok/
+*.log
+.DS_Store
+.nitro/
+dist/

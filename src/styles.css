@@ -1,0 +1,141 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0c0e10;
+  --color-surface: #15181c;
+  --color-raised: #1c2025;
+  --color-fg: #ece7de;
+  --color-muted: #9b958a;
+  --color-subtle: #6e6a63;
+  --color-accent: #6f9e98;
+  --color-accent-fg: #0c0e10;
+  --color-border: color-mix(in oklab, #ece7de 12%, transparent);
+  --color-border-strong: color-mix(in oklab, #ece7de 22%, transparent);
+  --color-theo: #c4b8a5;
+  --color-ok: #8aa58a;
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", monospace;
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --shadow-border: 0 0 0 1px color-mix(in oklab, #ece7de 8%, transparent);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html,
+  body,
+  #app {
+    min-height: 100%;
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    line-height: 1.5;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+    font-family: var(--font-display);
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  *:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+  }
+}
+
+@utility font-display {
+  font-family: var(--font-display);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.coin-scene {
+  perspective: 720px;
+}
+
+.coin {
+  position: relative;
+  width: 148px;
+  height: 148px;
+  transform-style: preserve-3d;
+  transition: transform 640ms var(--ease-out);
+}
+
+.coin-face {
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  backface-visibility: hidden;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(circle at 32% 28%, #f6f1e6 0%, #d8d0c2 42%, #b7ad9c 100%);
+  box-shadow:
+    inset 0 0 0 10px color-mix(in oklab, #6f9e98 35%, transparent),
+    inset 0 0 0 12px #0c0e10;
+}
+
+.coin-face.back {
+  transform: rotateY(180deg);
+}
+
+.die-face {
+  width: 148px;
+  height: 148px;
+  border-radius: 28px;
+  background: #ece7de;
+  color: #0c0e10;
+  display: grid;
+  place-items: center;
+  box-shadow: var(--shadow-border);
+  transition:
+    transform 180ms var(--ease-out),
+    filter 180ms var(--ease-out);
+}
+
+.die-face.rolling {
+  filter: blur(2px);
+  transform: rotate(-8deg) scale(0.98);
+}
+
+.bar-fill {
+  transition: height 180ms var(--ease-out);
+}
+
+.theo-mark {
+  transition: bottom 180ms var(--ease-out);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .coin,
+  .die-face,
+  .bar-fill,
+  .theo-mark {
+    transition: none;
+  }
+}
